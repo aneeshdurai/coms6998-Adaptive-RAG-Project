@@ -27,9 +27,32 @@ class LocalChat:
 
     @torch.no_grad()
     def complete(self, prompt: str, temperature: float = 0.0, max_tokens: int = 256) -> str:
-        inputs = self.tokenizer(prompt, return_tensors="pt")
+        # For instruct models, wrap prompt in chat template to prevent hallucinations
+        # This ensures the model follows instructions instead of generating conversational text
+        use_chat_template = hasattr(self.tokenizer, 'chat_template') and self.tokenizer.chat_template
+        
+        if use_chat_template:
+            messages = [{"role": "user", "content": prompt}]
+            try:
+                formatted_prompt = self.tokenizer.apply_chat_template(
+                    messages, 
+                    tokenize=False, 
+                    add_generation_prompt=True
+                )
+            except Exception:
+                # Fallback if chat template fails
+                use_chat_template = False
+                formatted_prompt = prompt
+        else:
+            formatted_prompt = prompt
+        
+        inputs = self.tokenizer(formatted_prompt, return_tensors="pt")
         inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
         do_sample = temperature > 0
+        
+        # Get length of input tokens for proper extraction
+        input_length = inputs['input_ids'].shape[1]
+        
         out = self.model.generate(
             **inputs,
             max_new_tokens=max_tokens,
@@ -38,8 +61,9 @@ class LocalChat:
             top_p=0.95 if do_sample else None,
             eos_token_id=self.tokenizer.eos_token_id,
         )
-        text = self.tokenizer.decode(out[0], skip_special_tokens=True)
-        # Return only the generated completion portion if possible
-        if text.startswith(prompt):
-            return text[len(prompt):].strip()
-        return text.strip()
+        
+        # Decode only the generated tokens (not the input)
+        generated_tokens = out[0][input_length:]
+        response = self.tokenizer.decode(generated_tokens, skip_special_tokens=True)
+        
+        return response.strip()

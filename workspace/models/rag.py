@@ -22,17 +22,50 @@ logger = get_logger("models.rag")
 
 @dataclass
 class RagConfig:
+    """
+    Configuration for RAG system behavior.
+    
+    Attributes:
+        top_k: Number of documents to retrieve from search index
+        context_k: Number of top documents to use for answer generation
+        confidence_threshold: Minimum confidence score before triggering adaptive rewriting (0-1)
+        max_adaptive_steps: Maximum number of query rewrite iterations
+        alpha_gen: Weight for generator confidence in combined score (0-1, default 0.6 means 60% generator, 40% retrieval)
+    """
     top_k: int = 20
     context_k: int = 5
     confidence_threshold: float = 0.5
     max_adaptive_steps: int = 1
-    alpha_gen: float = 0.6  # weight for generator confidence in combined score
+    alpha_gen: float = 0.6
 
 class RAGGenerator:
+    """
+    Generates answers to questions using retrieved context.
+    
+    The generator formats a prompt with question and evidence context,
+    then uses an LLM to produce a structured answer with confidence score.
+    
+    Args:
+        chat_client: LLM client (LocalChat or OpenAIChat) for generation
+    """
     def __init__(self, chat_client):
         self.chat = chat_client
 
     def answer(self, question: str, context: str, temperature: float = 0.0) -> Dict[str, Any]:
+        """
+        Generate an answer to a question given evidence context.
+        
+        Args:
+            question: User's question
+            context: Retrieved evidence text (concatenated chunks)
+            temperature: Sampling temperature (0.0 for deterministic)
+            
+        Returns:
+            Dictionary with keys:
+                - raw: Raw model output
+                - answer: Parsed answer text
+                - gen_conf: Generator's self-reported confidence (0-1)
+        """
         prompt = ANSWER_PROMPT.format(question=question, context=context)
         out = self.chat.complete(prompt, temperature=temperature, max_tokens=128)
         ans, conf = parse_answer_and_conf(out)
@@ -55,20 +88,75 @@ class QueryRewriter:
         self.chat = chat_client
 
     def rewrite(self, question: str, snippets: str) -> str:
+        """
+        Rewrite a query to improve retrieval performance.
+        
+        Args:
+            question: Original user question
+            snippets: Top retrieved document snippets to inform rewriting
+            
+        Returns:
+            Rewritten query, or original if validation fails
+        """
         prompt = REWRITE_PROMPT.format(question=question, snippets=snippets)
         out = self.chat.complete(prompt, temperature=0.0, max_tokens=64)
-        rewritten = (out or "").strip().splitlines()[0].strip()
+        
+        # Clean up the output to extract just the rewritten query
+        rewritten = (out or "").strip()
+        
+        # Take only the first line (models sometimes generate extra explanations)
+        rewritten = rewritten.splitlines()[0].strip()
+        
+        # Remove common prefixes that models might add
+        lower = rewritten.lower()
+        for prefix in ["rewritten question:", "rewritten:", "query:", "answer:"]:
+            if lower.startswith(prefix):
+                rewritten = rewritten[len(prefix):].strip()
+                break
+        
+        # Remove surrounding quotes if present
+        if len(rewritten) >= 2:
+            if (rewritten[0] == '"' and rewritten[-1] == '"') or \
+               (rewritten[0] == "'" and rewritten[-1] == "'"):
+                rewritten = rewritten[1:-1].strip()
+        
+        # Sanity check: if rewrite looks corrupted or too long, fall back to original
+        if len(rewritten) < 5 or len(rewritten) > len(question) * 4:
+            logger.debug(f"Rewrite rejected: corrupted output (len={len(rewritten)})")
+            return question
 
         # Guard: do not allow the rewrite to introduce new constraints (e.g., years/numbers)
         check = validate_rewrite(question, rewritten, forbid_new_years=True, forbid_new_numbers=True)
         if not check.ok:
-            # Fall back safely to original question
-            # (Optional: add logging here if you have a logger)
+            logger.debug(f"Rewrite rejected: {check.reasons}")
             return question
 
+        logger.info(f"Query rewritten: '{question[:50]}...' -> '{rewritten[:50]}...'")
         return rewritten
 
 class AdaptiveRAG:
+    """
+    Adaptive Retrieval-Augmented Generation system with confidence-based query rewriting.
+    
+    The system:
+    1. Retrieves documents for a query
+    2. Generates an answer with confidence score
+    3. If confidence < threshold: rewrites query and repeats
+    4. Returns best answer (with metadata about rewrites)
+    
+    Args:
+        searcher: Retrieval system (BM25Searcher or FaissSearcher)
+        store: Corpus store for fetching full chunk text
+        generator: RAGGenerator for answer generation
+        rewriter: QueryRewriter for adaptive query rewriting
+        cfg: RagConfig with system parameters
+        
+    Example:
+        >>> rag = AdaptiveRAG(searcher, store, generator, rewriter, cfg)
+        >>> result = rag.answer_adaptive("What was Apple's revenue?")
+        >>> print(f"Answer: {result['answer']}")
+        >>> print(f"Confidence: {result['confidence']:.2f}")
+    """
     def __init__(
         self,
         searcher: SearcherProtocol,

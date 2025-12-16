@@ -205,6 +205,15 @@ def main():
         
         st.divider()
         
+        # Artifacts path (define early since DPO section needs it)
+        artifacts_dir = st.text_input(
+            "Artifacts Directory",
+            value="artifacts",
+            help="Path to artifacts directory containing indexes and corpus (relative to repo root)"
+        )
+        
+        st.divider()
+        
         # Model selection
         use_openai = st.checkbox("Use OpenAI", value=False, help="Use OpenAI API instead of local model")
         
@@ -332,15 +341,8 @@ def main():
             help="Number of retrieved documents to use as context"
         )
         
-        # Artifacts path
-        st.divider()
-        artifacts_dir = st.text_input(
-            "Artifacts Directory",
-            value="artifacts",
-            help="Path to artifacts directory containing indexes and corpus (relative to repo root)"
-        )
-        
         # Check if artifacts exist
+        st.divider()
         artifacts_path = Path(artifacts_dir)
         if not artifacts_path.is_absolute():
             # Find repo root
