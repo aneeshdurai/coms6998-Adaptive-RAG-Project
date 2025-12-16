@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# HuggingFace cache
+.hf_cache/
+
+# Artifacts (optional - uncomment if you don't want to commit artifacts)
+# artifacts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pip temporary files
+pip-install-*/
+pip-metadata-*/
+pip-unpack-*/
+pip-build-env-*/
+pip-build-tracker-*/
+pip-ephem-wheel-cache-*/
+
+# Temporary files
+tmp*
+*.tmp
+
+# SSH keys
+*.key
+*.pub
+runpod_key*
+
+# Compressed archives (if not needed in repo)
+*.zip
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large model checkpoint files
+artifacts/models/*/checkpoint-*/optimizer.pt
+artifacts/models/*/checkpoint-*/scheduler.pt
+artifacts/models/*/checkpoint-*/*.pth
+

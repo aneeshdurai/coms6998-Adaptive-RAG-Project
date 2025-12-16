@@ -1,0 +1,2905 @@
+{
+  "summary": {
+    "n": 100,
+    "EM_norm": 0.04,
+    "F1": 0.21334850435037733,
+    "ROUGE_L": 0.19861788460826188,
+    "SupportOverlap": null,
+    "Recall@5": 0.39,
+    "Recall@10": 0.42,
+    "Recall@20": 0.42,
+    "MRR@20": 0.31069047619047613,
+    "Latency_p50_s": 27.188821248710155,
+    "Latency_p95_s": 28.54773761127144,
+    "Throughput_qps": 0.040688883414180047,
+    "Adaptive_trigger_rate": 0.9,
+    "Adaptive_avg_steps": 2.8777777777777778
+  },
+  "records": [
+    {
+      "id": "ex_0",
+      "question": "what criteria are used to classify loans and leases as nonperforming according",
+      "gold": "Loans and leases are classified as nonperforming when they are on nonaccrual status, such as being 90 days past due, have confirmed fraud or bankruptcy, or fit certain criteria such as being uninsured past a certain delinquency threshold or not well-secured and in the process of collection in the case of commercial loans.",
+      "pred": "Nonperforming loans and leases are generally those that have been placed on nonaccrual status, such as when they are 90 days past due or have confirmed cases of fraud or bankruptcy.",
+      "gold_doc_id": "ctxsha1_35ed255aa4a839aca81c2224aa57ce557d496607",
+      "confidence": 0.3866741040030922,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9666852600077305,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the criteria for classifying loans and leases as nonperforming?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what criteria are used to classify loans and leases as nonperforming according",
+          "confidence": 0.38387231733132254
+        },
+        {
+          "step": 2,
+          "query": "What criteria classify loans and leases as nonperforming, specifically regarding nonaccrual status and delinquency periods?",
+          "confidence": 0.39663245835254135
+        },
+        {
+          "step": 3,
+          "query": "What are the criteria for classifying loans and leases as nonperforming?",
+          "confidence": 0.3866741040030922
+        }
+      ],
+      "latency_s": 27.38781614974141,
+      "top1_score": 30.45248680101725
+    },
+    {
+      "id": "ex_1",
+      "question": "how much cash from foreign subsidiaries is available for repatriation",
+      "gold": "Approximately $925 million",
+      "pred": "$925 million",
+      "gold_doc_id": "ctxsha1_f2875ceb60e19948d3d7b1e58518d1a1c9a90472",
+      "confidence": 0.37188740180330393,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9297185045082598,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the amount of cash from foreign subsidiaries available for repatriation?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the amount of cash from foreign subsidiaries available for repatriation without a material tax cost?",
+          "confidence": 0.39759719974672086
+        },
+        {
+          "step": 2,
+          "query": "What is the amount of cash from foreign subsidiaries available for repatriation?",
+          "confidence": 0.37188740180330393
+        },
+        {
+          "step": 3,
+          "query": "What is the amount of cash from foreign subsidiaries available for repatriation?",
+          "confidence": 0.37188740180330393
+        }
+      ],
+      "latency_s": 27.309664841741323,
+      "top1_score": 25.215822099073304
+    },
+    {
+      "id": "ex_2",
+      "question": "what are etsy ' s main operating marketplaces as of",
+      "gold": "As of 2023, Etsy's main operating marketplaces are Etsy.com, Reverb, and Depop.",
+      "pred": "Two-sided online marketplaces",
+      "gold_doc_id": "ctxsha1_61354be73da72dbc7deb615c174e927da7ec2ce4",
+      "confidence": 0.30501271359188437,
+      "gen_conf": 0.0,
+      "retr_conf": 0.7625317839797109,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are Etsy's main operating marketplaces?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are Etsy's main operating marketplaces?",
+          "confidence": 0.30501271359188437
+        },
+        {
+          "step": 2,
+          "query": "What are Etsy's main operating marketplaces?",
+          "confidence": 0.30501271359188437
+        },
+        {
+          "step": 3,
+          "query": "What are Etsy's main operating marketplaces?",
+          "confidence": 0.30501271359188437
+        }
+      ],
+      "latency_s": 26.552444767206907,
+      "top1_score": 15.777402695230673
+    },
+    {
+      "id": "ex_3",
+      "question": "what was the increase in net from operating activities from to",
+      "gold": "$185,872",
+      "pred": "581 million",
+      "gold_doc_id": "ctxsha1_f2a997c3cddbff3ba44419b45fc8a4abbec2c86a",
+      "confidence": 0.36613832025895776,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9153458006473943,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the increase in net from operating activities from to",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the increase in net from operating activities from to",
+          "confidence": 0.36613832025895776
+        },
+        {
+          "step": 2,
+          "query": "what was the increase in net from operating activities from to",
+          "confidence": 0.36613832025895776
+        },
+        {
+          "step": 3,
+          "query": "what was the increase in net from operating activities from to",
+          "confidence": 0.36613832025895776
+        }
+      ],
+      "latency_s": 27.653045419603586,
+      "top1_score": 23.871514682120075
+    },
+    {
+      "id": "ex_4",
+      "question": "what does ' other ( expense ) income, net ' include",
+      "gold": "'Other (expense) income, net' includes interest and other income, interest expense, foreign exchange (loss) gain, and loss on sale of business.",
+      "pred": "Other (expense) income, net includes interest income and net unrealized gains or losses on equity investments.",
+      "gold_doc_id": "ctxsha1_a452b1d74a28ffda66d497f49392233c2da9ef9b",
+      "confidence": 0.3552088430143657,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8880221075359143,
+      "adaptive_triggered": true,
+      "rewritten_query": "What components are included in 'other (expense) income, net'?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What components are included in 'other (expense) income, net'?",
+          "confidence": 0.3552088430143657
+        },
+        {
+          "step": 2,
+          "query": "What components are included in 'other (expense) income, net'?",
+          "confidence": 0.3552088430143657
+        },
+        {
+          "step": 3,
+          "query": "What components are included in 'other (expense) income, net'?",
+          "confidence": 0.3552088430143657
+        }
+      ],
+      "latency_s": 27.023405876010656,
+      "top1_score": 21.804634503054615
+    },
+    {
+      "id": "ex_5",
+      "question": "how is the uncollectible amount determined for reeivables in the system described",
+      "gold": "The uncollectible amount for receivables is determined by comparing the fair value of the collateral, less the cost to sell, to the amortized cost of the receivable.",
+      "pred": "The uncollectible amount for receivables is determined by comparing the fair value of the collateral, less cost to sell, to the amortized cost of the receivable.",
+      "gold_doc_id": "ctxsha1_8614ce788565d1fb0baf28fb9410fbd3b07f4a22",
+      "confidence": 0.3620856920828259,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9052142302070648,
+      "adaptive_triggered": true,
+      "rewritten_query": "How is the uncollectible amount for receivables determined in the system described?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How is the uncollectible amount for receivables determined in the system described?",
+          "confidence": 0.3620856920828259
+        },
+        {
+          "step": 2,
+          "query": "How is the uncollectible amount for receivables determined in the system described?",
+          "confidence": 0.3620856920828259
+        },
+        {
+          "step": 3,
+          "query": "How is the uncollectible amount for receivables determined in the system described?",
+          "confidence": 0.3620856920828259
+        }
+      ],
+      "latency_s": 27.472635108977556,
+      "top1_score": 23.043682292154305
+    },
+    {
+      "id": "ex_6",
+      "question": "what factors does visa consider when analyzing business opportunities such as acquiitions or investments",
+      "gold": "Visa applies rigorous business analysis to ensure that acquisitions, joint ventures, and investments will differentiate its network, provide value added services, and accelerate growth.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_020bc1c0dc9b4b36603b04129b93620694474730",
+      "confidence": 0.35170681243223584,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8792670310805896,
+      "adaptive_triggered": true,
+      "rewritten_query": "What factors does Visa consider when evaluating business opportunities, including acquisitions or investments?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What factors does Visa consider when evaluating business opportunities such as acquisitions or investments?",
+          "confidence": 0.35170681243223584
+        },
+        {
+          "step": 2,
+          "query": "What factors does Visa consider when evaluating business opportunities such as acquisitions or investments?",
+          "confidence": 0.35170681243223584
+        },
+        {
+          "step": 3,
+          "query": "What factors does Visa consider when evaluating business opportunities, including acquisitions or investments?",
+          "confidence": 0.35170681243223584
+        }
+      ],
+      "latency_s": 27.73034082353115,
+      "top1_score": 21.236716018242294
+    },
+    {
+      "id": "ex_7",
+      "question": "how many gas stations did costco operate at the end of",
+      "gold": "Costco operated 692 gas stations at the end of 2023.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_c3a8d8024fabb8fc8f04852167f19618a1df96d5",
+      "confidence": 0.3797794870969419,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9494487177423547,
+      "adaptive_triggered": true,
+      "rewritten_query": "How many gas stations did Costco operate at the end of the reporting period?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How many gas stations did Costco operate at the end of the reporting period?",
+          "confidence": 0.3797794870969419
+        },
+        {
+          "step": 2,
+          "query": "How many gas stations did Costco operate at the end of the reporting period?",
+          "confidence": 0.3797794870969419
+        },
+        {
+          "step": 3,
+          "query": "How many gas stations did Costco operate at the end of the reporting period?",
+          "confidence": 0.3797794870969419
+        }
+      ],
+      "latency_s": 27.60814956575632,
+      "top1_score": 27.552621385156346
+    },
+    {
+      "id": "ex_8",
+      "question": "what factors contributed to the increase in operating and adjusted operating income",
+      "gold": "The increase was mainly due to a rise in average patient service revenue per treatment, reductions in pharmaceutical unit costs, contract wages and advocacy costs.",
+      "pred": "An increase in average patient service revenue per treatment, decreases in pharmaceutical unit costs, contract wages, and advocacy costs.",
+      "gold_doc_id": "ctxsha1_dd362e91c735865f9fe60966077a033541ffe1ff",
+      "confidence": 0.9875872822397921,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9689682055994802,
+      "adaptive_triggered": true,
+      "rewritten_query": "What factors led to the increase in operating income and adjusted operating income?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What factors led to the increase in operating income and adjusted operating income?",
+          "confidence": 0.9875872822397921
+        }
+      ],
+      "latency_s": 12.947344209998846,
+      "top1_score": 30.94146330053376
+    },
+    {
+      "id": "ex_9",
+      "question": "how many contrct manufacturers did nike have for apparel production",
+      "gold": "In fiscal 2023, Nike had 55 contract manufacturers for apparel production, and the largest single finished goods apparel factory accounted for approximately 8% of total Nike Brand apparel production.",
+      "pred": "55",
+      "gold_doc_id": "ctxsha1_92a647378c3f8d2188c32dc90caeb967362f9a87",
+      "confidence": 0.3841597765445319,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9603994413613296,
+      "adaptive_triggered": true,
+      "rewritten_query": "how many contrct manufacturers did nike have for apparel production",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "how many contrct manufacturers did nike have for apparel production",
+          "confidence": 0.3841597765445319
+        },
+        {
+          "step": 2,
+          "query": "how many contrct manufacturers did nike have for apparel production",
+          "confidence": 0.3841597765445319
+        },
+        {
+          "step": 3,
+          "query": "how many contrct manufacturers did nike have for apparel production",
+          "confidence": 0.3841597765445319
+        }
+      ],
+      "latency_s": 26.486272752285004,
+      "top1_score": 29.25670704983965
+    },
+    {
+      "id": "ex_10",
+      "question": "what mechanism is used in the gdpr to review draft decisions",
+      "gold": "The GDPR uses a consistency mechanism to review draft decisions in investigations by the IDPC.",
+      "pred": "The GDPR's consistency mechanism",
+      "gold_doc_id": "ctxsha1_c56fa1523804bb5c0f7488f31d796c1d47cf665a",
+      "confidence": 0.39724677385846985,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9931169346461746,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the review mechanism for draft decisions under the GDPR?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the review mechanism for draft decisions under the GDPR?",
+          "confidence": 0.39724677385846985
+        },
+        {
+          "step": 2,
+          "query": "What is the consistency mechanism in the GDPR for reviewing draft decisions?",
+          "confidence": 0.39847047695701976
+        },
+        {
+          "step": 3,
+          "query": "What is the review mechanism for draft decisions under the GDPR?",
+          "confidence": 0.39724677385846985
+        }
+      ],
+      "latency_s": 26.80326883122325,
+      "top1_score": 41.14522878491733
+    },
+    {
+      "id": "ex_11",
+      "question": "how much did the company repay in senior notes on july 17,",
+      "gold": "$500 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_3c843eba3e1dfef4d20583274c7ad42ba2b56170",
+      "confidence": 0.3764792116519391,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9411980291298477,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the amount repaid by the company in senior notes on July 17?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the amount repaid by the company in senior notes on July 17?",
+          "confidence": 0.3764792116519391
+        },
+        {
+          "step": 2,
+          "query": "What was the amount repaid by the company in senior notes on July 17?",
+          "confidence": 0.3764792116519391
+        },
+        {
+          "step": 3,
+          "query": "What was the amount repaid by the company in senior notes on July 17?",
+          "confidence": 0.3764792116519391
+        }
+      ],
+      "latency_s": 27.186298724263906,
+      "top1_score": 26.486521268740667
+    },
+    {
+      "id": "ex_12",
+      "question": "what was the fair value of client securities available",
+      "gold": "$86,911 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_1ad109b2d3d34f7098f49932517c6ddad3eb58fd",
+      "confidence": 0.342757546695724,
+      "gen_conf": 0.0,
+      "retr_conf": 0.85689386673931,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the fair value of client securities available",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the fair value of client securities available",
+          "confidence": 0.342757546695724
+        },
+        {
+          "step": 2,
+          "query": "what was the fair value of client securities available",
+          "confidence": 0.342757546695724
+        },
+        {
+          "step": 3,
+          "query": "what was the fair value of client securities available",
+          "confidence": 0.342757546695724
+        }
+      ],
+      "latency_s": 27.29088233038783,
+      "top1_score": 19.93151681695906
+    },
+    {
+      "id": "ex_13",
+      "question": "what was delta air lines ' effective tax rate in",
+      "gold": "18%",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_5417fe41337f1a9c30209cd2560b4807a4d8ba57",
+      "confidence": 0.9456664078817029,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8641660197042571,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was Delta Air Lines' effective tax rate?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was Delta Air Lines' effective tax rate?",
+          "confidence": 0.9456664078817029
+        }
+      ],
+      "latency_s": 12.992025766521692,
+      "top1_score": 20.335543305771427
+    },
+    {
+      "id": "ex_14",
+      "question": "what were the long - term and short - term credit ratings",
+      "gold": "Long-term: Aa1, Short-term: P-1",
+      "pred": "Short-term: P-1 (Moody's), A-1+ (S&P); Long-term: Aa3 (Moody's), AA- (S&P)",
+      "gold_doc_id": "ctxsha1_bf6038ea9b01370b2ba8eee2ed68d67e5816469c",
+      "confidence": 0.39584761754261133,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9896190438565283,
+      "adaptive_triggered": true,
+      "rewritten_query": "what were the long - term and short - term credit ratings",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what were the long - term and short - term credit ratings",
+          "confidence": 0.39584761754261133
+        },
+        {
+          "step": 2,
+          "query": "What are the short-term and long-term credit ratings?",
+          "confidence": 0.39230238259742606
+        },
+        {
+          "step": 3,
+          "query": "what were the long - term and short - term credit ratings",
+          "confidence": 0.39584761754261133
+        }
+      ],
+      "latency_s": 27.286613043397665,
+      "top1_score": 38.382313849180434
+    },
+    {
+      "id": "ex_15",
+      "question": "what was amc entertainment holdings, inc. ' s",
+      "gold": "$1,335.9 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_615d41351cd9dd69bcd5bb2cb34b280e55d4e427",
+      "confidence": 0.36643349107329204,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9160837276832301,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was amc entertainment holdings, inc. ' s",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was amc entertainment holdings, inc. ' s",
+          "confidence": 0.36643349107329204
+        },
+        {
+          "step": 2,
+          "query": "what was amc entertainment holdings, inc. ' s",
+          "confidence": 0.36643349107329204
+        },
+        {
+          "step": 3,
+          "query": "what was amc entertainment holdings, inc. ' s",
+          "confidence": 0.36643349107329204
+        }
+      ],
+      "latency_s": 27.576037857681513,
+      "top1_score": 23.935254817658077
+    },
+    {
+      "id": "ex_16",
+      "question": "what was the total amount of cash,",
+      "gold": "As of June 30, 2023, the total amount of cash, cash equivalents, and short-term investments was $111.3 billion.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_2a0a673bbf6f2bed7bc5cf5b04f515dd584eaa30",
+      "confidence": 0.29633708702075284,
+      "gen_conf": 0.0,
+      "retr_conf": 0.740842717551882,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the total amount of cash?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the total amount of cash?",
+          "confidence": 0.29633708702075284
+        },
+        {
+          "step": 2,
+          "query": "What was the total amount of cash involved in the transactions?",
+          "confidence": 0.35434469613802305
+        },
+        {
+          "step": 3,
+          "query": "What was the total amount of cash?",
+          "confidence": 0.29633708702075284
+        }
+      ],
+      "latency_s": 26.743637297302485,
+      "top1_score": 15.002354668167115
+    },
+    {
+      "id": "ex_17",
+      "question": "how much common stock did ebay repurchase in",
+      "gold": "In 2023, eBay repurchased $1.4 billion of common stock.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_c2e7831f625f76a125fbe6d37f696d401a982456",
+      "confidence": 0.3472507306655913,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8681268266639782,
+      "adaptive_triggered": true,
+      "rewritten_query": "how much common stock did ebay repurchase in",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "how much common stock did ebay repurchase in",
+          "confidence": 0.3472507306655913
+        },
+        {
+          "step": 2,
+          "query": "how much common stock did ebay repurchase in",
+          "confidence": 0.3472507306655913
+        },
+        {
+          "step": 3,
+          "query": "how much common stock did ebay repurchase in",
+          "confidence": 0.3472507306655913
+        }
+      ],
+      "latency_s": 27.52539836615324,
+      "top1_score": 20.563314433339805
+    },
+    {
+      "id": "ex_18",
+      "question": "how is revenue on a costant currency basis calculated for the year",
+      "gold": "Revenue on a constant currency basis for 2023 is calculated by translating the full year's revenue using the 2022 monthly exchange rates for settlement or billing currencies other than the U.S. dollar.",
+      "pred": "The revenue on a constant currency basis is calculated by determining the change in current period revenues over prior period revenues where current period foreign currency revenues are translated using prior year exchange rates and hedging effects are excluded from revenues of both periods.",
+      "gold_doc_id": "ctxsha1_6a5cb012992f02ec8481ec69ecef313444604ca0",
+      "confidence": 0.3823629604543061,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9559074011357652,
+      "adaptive_triggered": true,
+      "rewritten_query": "How is the constant currency revenue growth rate calculated?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How is constant currency revenue calculated for the year?",
+          "confidence": 0.3716126355587056
+        },
+        {
+          "step": 2,
+          "query": "How is revenue calculated on a constant currency basis?",
+          "confidence": 0.3550072668426277
+        },
+        {
+          "step": 3,
+          "query": "How is the constant currency revenue growth rate calculated?",
+          "confidence": 0.3823629604543061
+        }
+      ],
+      "latency_s": 27.8681238591671,
+      "top1_score": 28.509127369752463
+    },
+    {
+      "id": "ex_19",
+      "question": "what are the new requirements proposed by the epa for",
+      "gold": "The new requirements proposed by the EPA for the power sector include subcategorizing the best system of emissions reduction based on fuel type, determining carbon capture and sequestration as the best method for existing coal plants, setting an emissions limit of 1,300 to 1,500 pounds of carbon dioxide per gross megawatt hour for natural gas-fueled steam units, and requiring large, high-load natural gas combustion turbines to either use carbon capture and sequestration or a co-fueling with hydrogen.",
+      "pred": "Carbon capture and sequestration for existing coal units, an emissions limit between 1,300 and 1,500 pounds of carbon dioxide per gross megawatt hour for existing natural gas-fueled steam units, and a co-fueling with hydrogen for new natural gas combustion turbines with a blend rate between 30% and 96% by 2038.",
+      "gold_doc_id": "ctxsha1_ed69b2104fcabe927f3f426e5767ef6fc4a12a26",
+      "confidence": 0.398338671192646,
+      "gen_conf": 0.0,
+      "retr_conf": 0.995846677981615,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the new requirements proposed by the EPA for GHG emissions in the power sector?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the new requirements proposed by the EPA for GHG emissions in the power sector?",
+          "confidence": 0.398338671192646
+        },
+        {
+          "step": 2,
+          "query": "What are the new requirements proposed by the EPA for GHG emissions in the power sector?",
+          "confidence": 0.398338671192646
+        },
+        {
+          "step": 3,
+          "query": "What are the new requirements proposed by the EPA for GHG emissions in the power sector?",
+          "confidence": 0.398338671192646
+        }
+      ],
+      "latency_s": 27.514696665108204,
+      "top1_score": 44.531232050556014
+    },
+    {
+      "id": "ex_20",
+      "question": "what types of vehicles are included in the u",
+      "gold": "The types of vehicles included in the U.S. sales and wholesale figures are electric vehicles, hybrid vehicles, and internal combustion vehicles.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_a922445aad7c962980cd194470b7c082f0a3cc7f",
+      "confidence": 0.3395907447667856,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8489768619169639,
+      "adaptive_triggered": true,
+      "rewritten_query": "What types of vehicles are included in the U.S. market?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What types of vehicles are included in the U.S. market?",
+          "confidence": 0.3395907447667856
+        },
+        {
+          "step": 2,
+          "query": "What types of vehicles are included in the U.S. market?",
+          "confidence": 0.3395907447667856
+        },
+        {
+          "step": 3,
+          "query": "What types of vehicles are included in the U.S. market?",
+          "confidence": 0.3395907447667856
+        }
+      ],
+      "latency_s": 26.99284640699625,
+      "top1_score": 19.510659167926814
+    },
+    {
+      "id": "ex_21",
+      "question": "how does deta air lines account for the revenue from its marketing agreements,",
+      "gold": "Delta Air Lines allocates the revenue from marketing agreements like that with American Express by associating the consideration with the different products and services provided, such as travel awards and priority boarding.",
+      "pred": "Delta Air Lines divides the consideration from marketing agreements among the various services delivered, valuing these services based on their relative selling prices.",
+      "gold_doc_id": "ctxsha1_6aa11f7755beb60c6abc0ac14b6f0bfe09fa896d",
+      "confidence": 0.9818827501177227,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9547068752943068,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.1993632689118385,
+      "top1_score": 28.32166072021499
+    },
+    {
+      "id": "ex_22",
+      "question": "what was the effective tax rate for the company in",
+      "gold": "14.7%",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_33b792415f691c97286a646410c4f999b8cdcca1",
+      "confidence": 0.37409894118240394,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9352473529560098,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the effective tax rate for the company in",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the effective tax rate for the company in",
+          "confidence": 0.37409894118240394
+        },
+        {
+          "step": 2,
+          "query": "what was the effective tax rate for the company in",
+          "confidence": 0.37409894118240394
+        },
+        {
+          "step": 3,
+          "query": "what was the effective tax rate for the company in",
+          "confidence": 0.37409894118240394
+        }
+      ],
+      "latency_s": 27.344427838921547,
+      "top1_score": 25.801576414570782
+    },
+    {
+      "id": "ex_23",
+      "question": "what environmental commitment did hasbro make for reducng greenhouse gas emissions by",
+      "gold": "Hasbro committed to reducing Scope 1 and Scope 2 emissions by 47.5% and to reduce Scope 3 emissions by 42% by 2030, as validated by the Science-Based Targets Initiative.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_ebf4693228b96934dedfe74796bfc99937e6f335",
+      "confidence": 0.3928185231619715,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9820463079049288,
+      "adaptive_triggered": true,
+      "rewritten_query": "What environmental commitment did Hasbro make for reducing greenhouse gas emissions?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What environmental commitment did Hasbro make for reducing greenhouse gas emissions?",
+          "confidence": 0.3928185231619715
+        },
+        {
+          "step": 2,
+          "query": "What environmental commitment did Hasbro make for reducing greenhouse gas emissions?",
+          "confidence": 0.3928185231619715
+        },
+        {
+          "step": 3,
+          "query": "What environmental commitment did Hasbro make for reducing greenhouse gas emissions?",
+          "confidence": 0.3928185231619715
+        }
+      ],
+      "latency_s": 27.25023588910699,
+      "top1_score": 34.67895121624968
+    },
+    {
+      "id": "ex_24",
+      "question": "what was the dollar change in general and administrative expenses",
+      "gold": "$54 million",
+      "pred": "160",
+      "gold_doc_id": "ctxsha1_434611735ec1e5a240bfbbf6f33d7f3724ec840b",
+      "confidence": 0.3687141714920116,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9217854287300289,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the dollar change in general and administrative expenses",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the dollar change in general and administrative expenses",
+          "confidence": 0.3687141714920116
+        },
+        {
+          "step": 2,
+          "query": "what was the dollar change in general and administrative expenses",
+          "confidence": 0.3687141714920116
+        },
+        {
+          "step": 3,
+          "query": "what was the dollar change in general and administrative expenses",
+          "confidence": 0.3687141714920116
+        }
+      ],
+      "latency_s": 27.63560327142477,
+      "top1_score": 24.445710061220918
+    },
+    {
+      "id": "ex_25",
+      "question": "what was the cash dividends declared per common share for comcast in",
+      "gold": "$1.16",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_25e902e5e77c8cacd6b5ccbd080f6aca6b8ab79d",
+      "confidence": 0.38994161273635,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9748540318408749,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the cash dividend declared per common share for Comcast?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the cash dividends declared per common share for Comcast?",
+          "confidence": 0.3676879124691659
+        },
+        {
+          "step": 2,
+          "query": "What was the cash dividends declared per common share for Comcast?",
+          "confidence": 0.3676879124691659
+        },
+        {
+          "step": 3,
+          "query": "What was the cash dividend declared per common share for Comcast?",
+          "confidence": 0.38994161273635
+        }
+      ],
+      "latency_s": 27.493253152817488,
+      "top1_score": 32.38393451285054
+    },
+    {
+      "id": "ex_26",
+      "question": "how much did unitedhealthcare invest in property, equipment, and capitalized software in",
+      "gold": "$3,386 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_02600764cb39d8193a9bad87070070de111dea1e",
+      "confidence": 0.3758548502753358,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9396371256883393,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the amount invested by UnitedHealthcare in property, equipment, and capitalized software?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the amount UnitedHealthcare invested in property, equipment, and capitalized software?",
+          "confidence": 0.3758548502753358
+        },
+        {
+          "step": 2,
+          "query": "What was the amount invested by UnitedHealthcare in property, equipment, and capitalized software?",
+          "confidence": 0.3758548502753358
+        },
+        {
+          "step": 3,
+          "query": "What was the amount invested by UnitedHealthcare in property, equipment, and capitalized software?",
+          "confidence": 0.3758548502753358
+        }
+      ],
+      "latency_s": 26.959503155201674,
+      "top1_score": 26.30079674658435
+    },
+    {
+      "id": "ex_27",
+      "question": "what was the amount of deferred net loss on derivatives included in accumulated",
+      "gold": "$377 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_049cc9c194b4f85e6c5dc79fbb849c7d444396d4",
+      "confidence": 0.9639214936357154,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9098037340892887,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.1401607021689415,
+      "top1_score": 23.40827247398913
+    },
+    {
+      "id": "ex_28",
+      "question": "what challenges related to trade protectionism has nike faced",
+      "gold": "Nike has faced challenges due to trade protectionism which led to increased costs of products. In response, Nike monitors protectionist trends, engages in administrative and judicial processes to mitigate trade restrictions, and advocates for trade liberalization in various international forums.",
+      "pred": "Increased product costs",
+      "gold_doc_id": "ctxsha1_c487ee95b60c1fa16806d5cebb1920a85ef0cf95",
+      "confidence": 0.9892079845865209,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9730199614663024,
+      "adaptive_triggered": true,
+      "rewritten_query": "What trade protectionism challenges has Nike faced, particularly regarding increased product costs and regulatory measures?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What trade protectionism challenges has Nike faced?",
+          "confidence": 0.30467578009966967
+        },
+        {
+          "step": 2,
+          "query": "What trade protectionism challenges has Nike faced, particularly regarding increased product costs and regulatory measures?",
+          "confidence": 0.9892079845865209
+        }
+      ],
+      "latency_s": 19.86862051859498,
+      "top1_score": 31.902048788977673
+    },
+    {
+      "id": "ex_29",
+      "question": "how many pages are dedicated to item 8 in the document concerning financial",
+      "gold": "39",
+      "pred": "1",
+      "gold_doc_id": "ctxsha1_8ef578e3925bd8bca1637c913fa3e5e4a0b1c89c",
+      "confidence": 0.949497018233282,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8737425455832052,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.203804694116116,
+      "top1_score": 20.896417671282443
+    },
+    {
+      "id": "ex_30",
+      "question": "how much did interest rate futures and options revenue increase in compared to",
+      "gold": "2%",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_c47a38570746b8e06af0c2976a80f6554658afcd",
+      "confidence": 0.3854261975688935,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9635654939222338,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the increase in interest rate futures and options revenue compared to the previous year?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "how much did interest rate futures and options revenue increase in compared to",
+          "confidence": 0.36024995817305616
+        },
+        {
+          "step": 2,
+          "query": "how much did interest rate futures and options revenue increase in compared to",
+          "confidence": 0.36024995817305616
+        },
+        {
+          "step": 3,
+          "query": "What was the increase in interest rate futures and options revenue compared to the previous year?",
+          "confidence": 0.3854261975688935
+        }
+      ],
+      "latency_s": 27.775659810751677,
+      "top1_score": 29.834161105208263
+    },
+    {
+      "id": "ex_31",
+      "question": "by how much wold a 25 basis point increase in the expected",
+      "gold": "A 25 basis point increase in the expected rate of return on assets would reduce the 2024 Pension Expense for U.S. plans by $25.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_2eecf9375ec00a6fa0e1d30e718027f5f70d5f09",
+      "confidence": 0.9752796479431954,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9381991198579885,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.800781562924385,
+      "top1_score": 26.133630677559204
+    },
+    {
+      "id": "ex_32",
+      "question": "where can information regarding legal proceedings be found in relation to cnsolidated financial statements",
+      "gold": "Information regarding legal proceedings can be found in Note 17, titled 'Litigation and Contingencies', which is part of the consolidated financial statements.",
+      "pred": "Item 8 of Part II, 'Financial Statements and Supplementary Data — Note 7 — Commitments and Contingencies — Legal Proceedings'",
+      "gold_doc_id": "ctxsha1_483d6c9fb30ec3bc665bdb3979480b62296a5400",
+      "confidence": 0.3849562509100919,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9623906272752297,
+      "adaptive_triggered": true,
+      "rewritten_query": "Where can I find information about legal proceedings related to consolidated financial statements?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "Where can I find information about legal proceedings related to consolidated financial statements?",
+          "confidence": 0.3849562509100919
+        },
+        {
+          "step": 2,
+          "query": "Where can I find information about legal proceedings related to consolidated financial statements?",
+          "confidence": 0.3849562509100919
+        },
+        {
+          "step": 3,
+          "query": "Where can I find information about legal proceedings related to consolidated financial statements?",
+          "confidence": 0.3849562509100919
+        }
+      ],
+      "latency_s": 27.220422640442848,
+      "top1_score": 29.614447545188607
+    },
+    {
+      "id": "ex_33",
+      "question": "what were the legal allegations made against johnson",
+      "gold": "The qui tam complaint accused Johnson & Johnson of off-label promotion of PREZISTA and INTELENCE and anti-kickback violations connected with the promotion of these HIV products.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_4b86c45d9104cbb76c3f1dfcc2782cc7e9b8d44e",
+      "confidence": 0.3716990405871769,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9292476014679422,
+      "adaptive_triggered": true,
+      "rewritten_query": "What legal allegations have been made against Johnson & Johnson?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What legal allegations have been made against Johnson & Johnson?",
+          "confidence": 0.3716990405871769
+        },
+        {
+          "step": 2,
+          "query": "What legal allegations have been made against Johnson & Johnson?",
+          "confidence": 0.3716990405871769
+        },
+        {
+          "step": 3,
+          "query": "What legal allegations have been made against Johnson & Johnson?",
+          "confidence": 0.3716990405871769
+        }
+      ],
+      "latency_s": 26.464567102491856,
+      "top1_score": 25.167925270425602
+    },
+    {
+      "id": "ex_34",
+      "question": "when was at & t inc. incorporated and under which state '",
+      "gold": "AT&T Inc. was incorporated under the laws of the State of Delaware in 1983.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_b3ca37b88d7c2caa3ed033c6d6d59f1ca225fcfa",
+      "confidence": 0.3131562148421602,
+      "gen_conf": 0.0,
+      "retr_conf": 0.7828905371054005,
+      "adaptive_triggered": true,
+      "rewritten_query": "When was AT&T Inc. incorporated and in which state?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "When was AT&T Inc. incorporated and in which state?",
+          "confidence": 0.3131562148421602
+        },
+        {
+          "step": 2,
+          "query": "When was AT&T Inc. incorporated and in which state?",
+          "confidence": 0.3131562148421602
+        },
+        {
+          "step": 3,
+          "query": "When was AT&T Inc. incorporated and in which state?",
+          "confidence": 0.3131562148421602
+        }
+      ],
+      "latency_s": 27.554379355162382,
+      "top1_score": 16.550608154709295
+    },
+    {
+      "id": "ex_35",
+      "question": "how many broadband and internet services does the company provide to customer locations",
+      "gold": "15 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_f69c46476225438b48ac4fe91548ad90ad5d7a15",
+      "confidence": 0.36961683135296663,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9240420783824166,
+      "adaptive_triggered": true,
+      "rewritten_query": "How many broadband and internet services does the company provide to customer locations?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How many broadband and internet services does the company provide to customer locations?",
+          "confidence": 0.36961683135296663
+        },
+        {
+          "step": 2,
+          "query": "How many broadband and internet services does the company provide to customer locations?",
+          "confidence": 0.36961683135296663
+        },
+        {
+          "step": 3,
+          "query": "How many broadband and internet services does the company provide to customer locations?",
+          "confidence": 0.36961683135296663
+        }
+      ],
+      "latency_s": 26.71831624209881,
+      "top1_score": 24.657187239652185
+    },
+    {
+      "id": "ex_36",
+      "question": "in what part and item of the report is note 21 located",
+      "gold": "Note 21 is located in Item 8 of Part II of the report.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_f8dcaec6dc321e7ddb0530b2ba0282546b17f881",
+      "confidence": 0.386620360807022,
+      "gen_conf": 0.0,
+      "retr_conf": 0.966550902017555,
+      "adaptive_triggered": true,
+      "rewritten_query": "In which part and item of the report can note 21 be found?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "in what part and item of the report is note 21 located",
+          "confidence": 0.3862498424841449
+        },
+        {
+          "step": 2,
+          "query": "In which part and item of the report can Note 21 be found?",
+          "confidence": 0.386620360807022
+        },
+        {
+          "step": 3,
+          "query": "In which part and item of the report can note 21 be found?",
+          "confidence": 0.386620360807022
+        }
+      ],
+      "latency_s": 26.966574259102345,
+      "top1_score": 30.424727623573354
+    },
+    {
+      "id": "ex_37",
+      "question": "what was the deferred tax asset recorded for capitalized research and",
+      "gold": "$275 million",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_76dd080b9ac6ee8e31077d8c7c98e712bf559579",
+      "confidence": 0.3659925095984764,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9149812739961909,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the deferred tax asset recorded for capitalized research and development?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the deferred tax asset recorded for capitalized research and development?",
+          "confidence": 0.3659925095984764
+        },
+        {
+          "step": 2,
+          "query": "What was the deferred tax asset recorded for capitalized research and development?",
+          "confidence": 0.3659925095984764
+        },
+        {
+          "step": 3,
+          "query": "What was the deferred tax asset recorded for capitalized research and development?",
+          "confidence": 0.3659925095984764
+        }
+      ],
+      "latency_s": 27.457321643829346,
+      "top1_score": 23.840213742229803
+    },
+    {
+      "id": "ex_38",
+      "question": "what was the dollar increase in general, administrative, and other expenses",
+      "gold": "$33,351",
+      "pred": "160",
+      "gold_doc_id": "ctxsha1_356d79d95d6f358bea25abfac4a87e2079cfd14e",
+      "confidence": 0.3899071154257906,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9747677885644764,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the dollar increase in general, administrative, and other expenses for the years mentioned?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the dollar increase in general, administrative, and other expenses for the years mentioned?",
+          "confidence": 0.3899071154257906
+        },
+        {
+          "step": 2,
+          "query": "what was the dollar increase in general, administrative, and other expenses",
+          "confidence": 0.3841061044962585
+        },
+        {
+          "step": 3,
+          "query": "What was the dollar increase in general, administrative, and other expenses for the years mentioned?",
+          "confidence": 0.3899071154257906
+        }
+      ],
+      "latency_s": 28.16591627150774,
+      "top1_score": 32.360519114758205
+    },
+    {
+      "id": "ex_39",
+      "question": "how does ebay support charitable activities through its ebay for carity program",
+      "gold": "eBay for Charity supports global charities by matching donations made to specific organizations and empowering buyers and sellers to support their preferred charities through the platform.",
+      "pred": "eBay for Charity matched donations made to the International Rescue Committee, Team Rubicon, World Central Kitchen, Hawaii Community Foundation and American National Red Cross, and partnered with Homes For Our Troops, GiveLove, Deckaid Inc, Direct Relief and Free The Work.",
+      "gold_doc_id": "ctxsha1_2fccad243127f70d960bca33512a747354db1c29",
+      "confidence": 0.3750094530895957,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9375236327239892,
+      "adaptive_triggered": true,
+      "rewritten_query": "How does eBay support charitable activities through its eBay for Charity program, including donation matching and partnerships with organizations?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How does eBay support charitable activities through its eBay for Charity program?",
+          "confidence": 0.359232398152723
+        },
+        {
+          "step": 2,
+          "query": "How does eBay support charitable activities through its eBay for Charity program, including any matching donations or partnerships?",
+          "confidence": 0.3849599391845529
+        },
+        {
+          "step": 3,
+          "query": "How does eBay support charitable activities through its eBay for Charity program, including donation matching and partnerships with organizations?",
+          "confidence": 0.3750094530895957
+        }
+      ],
+      "latency_s": 27.381504260003567,
+      "top1_score": 26.0563573607599
+    },
+    {
+      "id": "ex_40",
+      "question": "how many steel fabrication plants does w & w | afco",
+      "gold": "W&W|AFCO operates 19 steel fabrication plants located across the U.S.",
+      "pred": "19",
+      "gold_doc_id": "ctxsha1_da48735582328e67d402d53473931bec7e516ece",
+      "confidence": 0.3999279427252905,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9998198568132262,
+      "adaptive_triggered": true,
+      "rewritten_query": "How many steel fabrication plants does W&W|AFCO operate?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How many steel fabrication plants does W&W|AFCO operate?",
+          "confidence": 0.3999279427252905
+        },
+        {
+          "step": 2,
+          "query": "How many steel fabrication plants does W&W|AFCO operate?",
+          "confidence": 0.3999279427252905
+        },
+        {
+          "step": 3,
+          "query": "How many steel fabrication plants does W&W|AFCO operate?",
+          "confidence": 0.3999279427252905
+        }
+      ],
+      "latency_s": 26.94148726761341,
+      "top1_score": 65.47718921206945
+    },
+    {
+      "id": "ex_41",
+      "question": "what is the title of item 8 as mentioned in the document",
+      "gold": "Financial Statements and Supplementary Data",
+      "pred": "Financial Statements and Supplementary Data",
+      "gold_doc_id": "ctxsha1_3ca5c4dbd60cfcf5b84cb617cc305d88d17c9628",
+      "confidence": 0.3607303045622717,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9018257614056792,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the title of Item 8 in the document?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the title of Item 8 in the document?",
+          "confidence": 0.3607303045622717
+        },
+        {
+          "step": 2,
+          "query": "What is the title of Item 8 in the document?",
+          "confidence": 0.3607303045622717
+        },
+        {
+          "step": 3,
+          "query": "What is the title of Item 8 in the document?",
+          "confidence": 0.3607303045622717
+        }
+      ],
+      "latency_s": 26.83095618709922,
+      "top1_score": 22.78451658261453
+    },
+    {
+      "id": "ex_42",
+      "question": "what was the tax liability for uncertain tax positions as of august 26,",
+      "gold": "The tax liability for uncertain tax positions, including interest and penalties, was $51.0 million as of August 26, 2023.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_f31539953fc707870efa1b113c885180e5fae5d3",
+      "confidence": 0.38468885795542107,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9617221448885526,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the tax liability for uncertain tax positions as of August 26?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the tax liability for uncertain tax positions as of August 26?",
+          "confidence": 0.38468885795542107
+        },
+        {
+          "step": 2,
+          "query": "What was the tax liability for uncertain tax positions as of August 26?",
+          "confidence": 0.38468885795542107
+        },
+        {
+          "step": 3,
+          "query": "What was the tax liability for uncertain tax positions as of August 26?",
+          "confidence": 0.38468885795542107
+        }
+      ],
+      "latency_s": 27.104308865964413,
+      "top1_score": 29.49236029883579
+    },
+    {
+      "id": "ex_43",
+      "question": "what information is typically found under the section labeled ' item 8 ' in",
+      "gold": "Financial Statements and Supplementary Data",
+      "pred": "Part II, Item 8",
+      "gold_doc_id": "ctxsha1_d2fb52f39a48e74bbb7b695ca58c42a43e1a936e",
+      "confidence": 0.9606423545223415,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9016058863058536,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.149570856243372,
+      "top1_score": 22.767976728999898
+    },
+    {
+      "id": "ex_44",
+      "question": "what is included in the capitation paymnt to providers",
+      "gold": "The capitation payment typically covers all or a defined portion of the benefits provided to the capped members.",
+      "pred": "All or a defined portion of the benefits provided to the capitated member.",
+      "gold_doc_id": "ctxsha1_721bde299a9a60914f42bb841c1deefcb59a3153",
+      "confidence": 0.37413668352841634,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9353417088210407,
+      "adaptive_triggered": true,
+      "rewritten_query": "What components are included in the capitation payment to providers?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What components are included in the capitation payment to providers?",
+          "confidence": 0.37413668352841634
+        },
+        {
+          "step": 2,
+          "query": "What components are included in the capitation payment to providers?",
+          "confidence": 0.37413668352841634
+        },
+        {
+          "step": 3,
+          "query": "What components are included in the capitation payment to providers?",
+          "confidence": 0.37413668352841634
+        }
+      ],
+      "latency_s": 26.987490735948086,
+      "top1_score": 25.811970548978692
+    },
+    {
+      "id": "ex_45",
+      "question": "how did nvidia pivot its gpu architecture usage beyond pc graphics",
+      "gold": "NVIDIA leveraged its GPU architecture to create platforms for scientific computing, AI, data science, AV, robotics, metaverse, and 3D internet applications.",
+      "pred": "NVIDIA pivoted its GPU architecture usage beyond PC graphics by leveraging it for scientific computing, AI, data science, AV, robotics, metaverse, and 3D internet applications.",
+      "gold_doc_id": "ctxsha1_17b93612024b8425dff0d6f991b550a8f935ddd5",
+      "confidence": 0.399952879525805,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9998821988145125,
+      "adaptive_triggered": true,
+      "rewritten_query": "How has NVIDIA expanded its GPU architecture applications beyond PC graphics into areas like scientific computing, AI, and data science?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How has NVIDIA expanded its GPU architecture applications beyond PC graphics into areas like scientific computing, AI, and robotics?",
+          "confidence": 0.39993298780538655
+        },
+        {
+          "step": 2,
+          "query": "How has NVIDIA expanded its GPU architecture applications beyond PC graphics into areas like scientific computing, AI, and data science?",
+          "confidence": 0.399952879525805
+        },
+        {
+          "step": 3,
+          "query": "How has NVIDIA expanded its GPU architecture applications beyond PC graphics into areas like scientific computing, AI, and data science?",
+          "confidence": 0.399952879525805
+        }
+      ],
+      "latency_s": 27.62400609254837,
+      "top1_score": 68.30929610073532
+    },
+    {
+      "id": "ex_46",
+      "question": "what were the total consolidated adjusted operating incomes reported for the years ended december",
+      "gold": "The total consolidated adjusted operating incomes for the year ended December 31, 2023, was $17,534 million, and for 2022, it was $18,037 million.",
+      "pred": "$17,534 million",
+      "gold_doc_id": "ctxsha1_837e3ffc79223820309ea9f7264738cd320dbb82",
+      "confidence": 0.9840991808284197,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9602479520710494,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.390635587275028,
+      "top1_score": 29.230201163476124
+    },
+    {
+      "id": "ex_47",
+      "question": "what was the available capaciy of the revolving credit facility as of august",
+      "gold": "$2.2 billion",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_2ccfcd95ad81e84877c05efbf1b5c14dd9be05d6",
+      "confidence": 0.3827770979249423,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9569427448123558,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the available capacity of the revolving credit facility as of August?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the available capacity of the revolving credit facility as of August?",
+          "confidence": 0.3827770979249423
+        },
+        {
+          "step": 2,
+          "query": "What was the available capacity of the revolving credit facility as of August?",
+          "confidence": 0.3827770979249423
+        },
+        {
+          "step": 3,
+          "query": "What was the available capacity of the revolving credit facility as of August?",
+          "confidence": 0.3827770979249423
+        }
+      ],
+      "latency_s": 27.13632781431079,
+      "top1_score": 28.674752105846256
+    },
+    {
+      "id": "ex_48",
+      "question": "what is the purpose of visa according to the overview provided",
+      "gold": "to uplift everyone, everywhere by being the best way to pay and be paid",
+      "pred": "PROVIDE A VALUE FOR THE CORRIDOR USED FOR THIS PURPOSE",
+      "gold_doc_id": "ctxsha1_ed2cfd94cc09bf70ec26024a7bff6792ec64c8c7",
+      "confidence": 0.3511404247469959,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8778510618674897,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the purpose of Visa according to the provided overview?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the purpose of Visa according to the provided overview?",
+          "confidence": 0.3511404247469959
+        },
+        {
+          "step": 2,
+          "query": "What is the purpose of Visa according to the provided overview?",
+          "confidence": 0.3511404247469959
+        },
+        {
+          "step": 3,
+          "query": "What is the purpose of Visa according to the provided overview?",
+          "confidence": 0.3511404247469959
+        }
+      ],
+      "latency_s": 27.191343773156404,
+      "top1_score": 21.1482389421003
+    },
+    {
+      "id": "ex_49",
+      "question": "how much was the depreciation and amortization expense for property and equipment in",
+      "gold": "The depreciation and amortization expense for property and equipment in 2023 was $23.7 million.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_34b9896091f30166d6f8fea9d3d10686dbee0557",
+      "confidence": 0.38675926970551,
+      "gen_conf": 0.0,
+      "retr_conf": 0.966898174263775,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the depreciation and amortization expense for property and equipment?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the depreciation and amortization expense for property and equipment?",
+          "confidence": 0.38675926970551
+        },
+        {
+          "step": 2,
+          "query": "What was the depreciation and amortization expense for property and equipment?",
+          "confidence": 0.38675926970551
+        },
+        {
+          "step": 3,
+          "query": "What was the depreciation and amortization expense for property and equipment?",
+          "confidence": 0.38675926970551
+        }
+      ],
+      "latency_s": 27.94460165500641,
+      "top1_score": 30.496698334632587
+    },
+    {
+      "id": "ex_50",
+      "question": "what was the net cash used in investing activities for the year ended december",
+      "gold": "$73.3 million, primarily for capital expenditures including $27.0 million for website development and internal-use software, and net purchases of investments totaling $33.4 million.",
+      "pred": "$2.7 billion",
+      "gold_doc_id": "ctxsha1_72464e6b134943a166078b780ed505fcb49b687c",
+      "confidence": 0.39726144960597387,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9931536240149346,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the net cash used in investing activities for the year ended december",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the net cash used in investing activities for the year ended december",
+          "confidence": 0.39726144960597387
+        },
+        {
+          "step": 2,
+          "query": "what was the net cash used in investing activities for the year ended december",
+          "confidence": 0.39726144960597387
+        },
+        {
+          "step": 3,
+          "query": "what was the net cash used in investing activities for the year ended december",
+          "confidence": 0.39726144960597387
+        }
+      ],
+      "latency_s": 28.54808920249343,
+      "top1_score": 41.181106000280195
+    },
+    {
+      "id": "ex_51",
+      "question": "what was the company ' s income tax",
+      "gold": "$32.3 million",
+      "pred": "16,741",
+      "gold_doc_id": "ctxsha1_e2c3e6f22bd4c3cbe3dcf91974b94b50812bd8d2",
+      "confidence": 0.37217328585824183,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9304332146456046,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the company's effective income tax rate?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the company's effective income tax rate?",
+          "confidence": 0.37217328585824183
+        },
+        {
+          "step": 2,
+          "query": "what was the company ' s income tax",
+          "confidence": 0.30422264015970496
+        },
+        {
+          "step": 3,
+          "query": "What was the company's effective income tax rate?",
+          "confidence": 0.37217328585824183
+        }
+      ],
+      "latency_s": 26.756428740918636,
+      "top1_score": 25.28908712247499
+    },
+    {
+      "id": "ex_52",
+      "question": "what information is provided in part i item 3 of the report",
+      "gold": "Information about legal proceedings.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_4b920fd5d65e95264fbc0281bce2991e73cf0466",
+      "confidence": 0.3978482379479032,
+      "gen_conf": 0.0,
+      "retr_conf": 0.994620594869758,
+      "adaptive_triggered": true,
+      "rewritten_query": "What details are included in Part I, Item 3 of the report regarding legal proceedings?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What details are included in Part I, Item 3 of the report regarding legal proceedings?",
+          "confidence": 0.3978482379479032
+        },
+        {
+          "step": 2,
+          "query": "What details are included in Part I, Item 3 of the report regarding legal proceedings?",
+          "confidence": 0.3978482379479032
+        },
+        {
+          "step": 3,
+          "query": "What details are included in Part I, Item 3 of the report regarding legal proceedings?",
+          "confidence": 0.3978482379479032
+        }
+      ],
+      "latency_s": 26.90174949541688,
+      "top1_score": 42.79855703519181
+    },
+    {
+      "id": "ex_53",
+      "question": "why did interest expense increase in, and what is expected for",
+      "gold": "Interest expense increased in 2023 mainly due to lower capitalized interest associated with spectrum acquisitions and higher interest rates. It is expected to increase further in 2024 due to the cessation of capitalization of interest for C-band spectrum licenses now in service.",
+      "pred": "Interest expense increased in 2023 primarily due to lower capitalized interest from spectrum acquisitions and higher interest rates. An additional rise in interest expense is anticipated in 2024 due to the cessation of capitalization of interest for C-band spectrum licenses that are now in service.",
+      "gold_doc_id": "ctxsha1_fb480cd947e434211cf32cab9b571ad8e45179b2",
+      "confidence": 0.31578284728271366,
+      "gen_conf": 0.0,
+      "retr_conf": 0.7894571182067841,
+      "adaptive_triggered": true,
+      "rewritten_query": "why did interest expense increase in, and what is expected for",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "why did interest expense increase in, and what is expected for",
+          "confidence": 0.31578284728271366
+        },
+        {
+          "step": 2,
+          "query": "why did interest expense increase in, and what is expected for",
+          "confidence": 0.31578284728271366
+        },
+        {
+          "step": 3,
+          "query": "why did interest expense increase in, and what is expected for",
+          "confidence": 0.31578284728271366
+        }
+      ],
+      "latency_s": 36.45316593721509,
+      "top1_score": 16.81104113823616
+    },
+    {
+      "id": "ex_54",
+      "question": "how does fedex express primarily fulfill its jet fuel needs",
+      "gold": "FedEx Express purchased jet fuel from various suppliers under contracts that vary in length and which provide for estimated amounts of fuel to be delivered. These contracts are purchased at market prices.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_d79cd30dfb472b9e0a0ed78472dccf80e9f358eb",
+      "confidence": 0.3820294621460252,
+      "gen_conf": 0.0,
+      "retr_conf": 0.955073655365063,
+      "adaptive_triggered": true,
+      "rewritten_query": "How does FedEx Express primarily meet its jet fuel requirements?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How does FedEx Express primarily meet its jet fuel requirements?",
+          "confidence": 0.3820294621460252
+        },
+        {
+          "step": 2,
+          "query": "How does FedEx Express primarily meet its jet fuel requirements?",
+          "confidence": 0.3820294621460252
+        },
+        {
+          "step": 3,
+          "query": "How does FedEx Express primarily meet its jet fuel requirements?",
+          "confidence": 0.3820294621460252
+        }
+      ],
+      "latency_s": 26.30726808309555,
+      "top1_score": 28.378427337739073
+    },
+    {
+      "id": "ex_55",
+      "question": "what led to the increase in the family of apps income from operations",
+      "gold": "The income from operations for the Family of Apps in 2023 increased due to a rise in advertising revenue.",
+      "pred": "Higher advertising revenue and a decrease in marketing and sales expenses.",
+      "gold_doc_id": "ctxsha1_4a65d0d6d0bf3a34df5ae28629d1acd527557abe",
+      "confidence": 0.38993558135446815,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9748389533861703,
+      "adaptive_triggered": true,
+      "rewritten_query": "what led to the increase in the family of apps income from operations",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what led to the increase in the family of apps income from operations",
+          "confidence": 0.38993558135446815
+        },
+        {
+          "step": 2,
+          "query": "what led to the increase in the family of apps income from operations",
+          "confidence": 0.38993558135446815
+        },
+        {
+          "step": 3,
+          "query": "what led to the increase in the family of apps income from operations",
+          "confidence": 0.38993558135446815
+        }
+      ],
+      "latency_s": 30.534821063280106,
+      "top1_score": 32.37983501366426
+    },
+    {
+      "id": "ex_56",
+      "question": "what was the outcome of the company ' s tax dispue regarding foreign tax",
+      "gold": "The Company obtained a summary judgment in its favor on a matter related to Mexican foreign tax credits.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_4e3f5914d8e98c8b3cbefc10a16dda24665359bc",
+      "confidence": 0.3811689610789904,
+      "gen_conf": 0.0,
+      "retr_conf": 0.952922402697476,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the outcome of the company's tax dispute regarding foreign tax credits?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the outcome of the company's tax dispute regarding foreign tax credits?",
+          "confidence": 0.3811689610789904
+        },
+        {
+          "step": 2,
+          "query": "What was the outcome of the company's tax dispute regarding foreign tax credits?",
+          "confidence": 0.3811689610789904
+        },
+        {
+          "step": 3,
+          "query": "What was the outcome of the company's tax dispute regarding foreign tax credits?",
+          "confidence": 0.3811689610789904
+        }
+      ],
+      "latency_s": 27.822734646499157,
+      "top1_score": 28.051574862422026
+    },
+    {
+      "id": "ex_57",
+      "question": "what was the financial impact of the non - cash ncm exhibitr services agreement",
+      "gold": "The non-cash NCM exhibitor services agreement involved receiving common membership units from NCM in exchange for exclusive theater screen access, recognized due to the extended period between receiving these units and fulfilling the performance obligation.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_f66ca1d01b0ecff79b2f95b82cace0037de08c58",
+      "confidence": 0.3972898832584075,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9932247081460186,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the financial impact of the non-cash NCM exhibitor services agreement on operating profit?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the financial impact of the non-cash NCM exhibitor services agreement on operating profit?",
+          "confidence": 0.3972898832584075
+        },
+        {
+          "step": 2,
+          "query": "What was the financial impact of the non-cash NCM exhibitor services agreement on operating profit?",
+          "confidence": 0.3972898832584075
+        },
+        {
+          "step": 3,
+          "query": "What was the financial impact of the non-cash NCM exhibitor services agreement on operating profit?",
+          "confidence": 0.3972898832584075
+        }
+      ],
+      "latency_s": 28.247615858912468,
+      "top1_score": 41.25116324479955
+    },
+    {
+      "id": "ex_58",
+      "question": "what information does pricewaterhousecoopers llp ' s report dated february 16,, contain",
+      "gold": "The report contains the Consolidated Financial Statements and the Notes related to those statements.",
+      "pred": "The report contains the authenticity of the Consolidated Financial Statements, Notes to these statements, and the report itself.",
+      "gold_doc_id": "ctxsha1_fc09ee5018def223498e104b195f97d445f38f95",
+      "confidence": 0.3954739637633606,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9886849094084014,
+      "adaptive_triggered": true,
+      "rewritten_query": "What information is included in PricewaterhouseCoopers LLP's report dated February 16?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what information does pricewaterhousecoopers llp ' s report dated february 16,, contain",
+          "confidence": 0.3954739637633606
+        },
+        {
+          "step": 2,
+          "query": "what information does pricewaterhousecoopers llp ' s report dated february 16,, contain",
+          "confidence": 0.3954739637633606
+        },
+        {
+          "step": 3,
+          "query": "What information is included in PricewaterhouseCoopers LLP's report dated February 16?",
+          "confidence": 0.3954739637633606
+        }
+      ],
+      "latency_s": 28.765376176685095,
+      "top1_score": 37.80158933560776
+    },
+    {
+      "id": "ex_59",
+      "question": "whee do the contents of item 15 begin in the report",
+      "gold": "The contents of Item 15 begin on page 105 immediately following the signature pages of the report.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_8bb006100dcdd1056a6a1b10337dd2ffa6703373",
+      "confidence": 0.3596335973960598,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8990839934901494,
+      "adaptive_triggered": true,
+      "rewritten_query": "whee do the contents of item 15 begin in the report",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "whee do the contents of item 15 begin in the report",
+          "confidence": 0.3596335973960598
+        },
+        {
+          "step": 2,
+          "query": "whee do the contents of item 15 begin in the report",
+          "confidence": 0.3596335973960598
+        },
+        {
+          "step": 3,
+          "query": "whee do the contents of item 15 begin in the report",
+          "confidence": 0.3596335973960598
+        }
+      ],
+      "latency_s": 27.2325196005404,
+      "top1_score": 22.580586052521756
+    },
+    {
+      "id": "ex_60",
+      "question": "what happens to a hilton franchise contract at the end of its initial term",
+      "gold": "It may be relicensed to the franchisee for an additional term generally ranging from 10 to 15 years.",
+      "pred": "The company may have a contractual right or obligation to relicense the hotel to the franchisee for an additional term.",
+      "gold_doc_id": "ctxsha1_8d1d3b1ab7f77bc055367fb8e698ef1b1c658274",
+      "confidence": 0.3978583770634334,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9946459426585835,
+      "adaptive_triggered": true,
+      "rewritten_query": "What occurs to a Hilton franchise contract upon the expiration of its initial term?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the contractual rights or obligations regarding a Hilton franchise contract at the end of its initial term?",
+          "confidence": 0.39844422109110555
+        },
+        {
+          "step": 2,
+          "query": "What occurs to a Hilton franchise contract upon the expiration of its initial term?",
+          "confidence": 0.3978583770634334
+        },
+        {
+          "step": 3,
+          "query": "What occurs to a Hilton franchise contract upon the expiration of its initial term?",
+          "confidence": 0.3978583770634334
+        }
+      ],
+      "latency_s": 27.43913096562028,
+      "top1_score": 42.830214548364005
+    },
+    {
+      "id": "ex_61",
+      "question": "what does chevron technical center specialize in",
+      "gold": "Chevron Technical Center specializes in areas such as earth sciences, reservoir and production engineering, facilities engineering, reserve governance and reporting, capital projects, drilling and completions, technology ventures, and downstream technology and services.",
+      "pred": "Chevron Technical Center specializes in earth sciences, reservoir and production engineering, facilities engineering, reserve governance and reporting, capital projects, drilling and completions, technology ventures, and downstream technology and services.",
+      "gold_doc_id": "ctxsha1_1ae474661703ad38f6f09cb956dd55e673f1fb10",
+      "confidence": 0.3939221386836419,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9848053467091047,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the areas of expertise and specialization of Chevron Technical Center?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the areas of expertise and specialization of Chevron Technical Center?",
+          "confidence": 0.3939221386836419
+        },
+        {
+          "step": 2,
+          "query": "What are the areas of expertise and specialization of Chevron Technical Center?",
+          "confidence": 0.3939221386836419
+        },
+        {
+          "step": 3,
+          "query": "What are the areas of expertise and specialization of Chevron Technical Center?",
+          "confidence": 0.3939221386836419
+        }
+      ],
+      "latency_s": 27.354525972157717,
+      "top1_score": 35.810002635304855
+    },
+    {
+      "id": "ex_62",
+      "question": "what led to a $525 million accrual in other current liabilities in the",
+      "gold": "A $525 million accrual in Other current liabilities was recorded due to settlements with plaintiffs in the HIV antitrust litigation.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_22b5292f3b9e870c36237aa69a30fdc83073c5ba",
+      "confidence": 0.3660274364318862,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9150685910797154,
+      "adaptive_triggered": true,
+      "rewritten_query": "What caused the $525 million litigation expense in other current liabilities?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What caused the $525 million litigation expense in other current liabilities for GameStop Corp.?",
+          "confidence": 0.38904387864126927
+        },
+        {
+          "step": 2,
+          "query": "What caused the $525 million litigation expense in other current liabilities?",
+          "confidence": 0.3660274364318862
+        },
+        {
+          "step": 3,
+          "query": "What caused the $525 million litigation expense in other current liabilities?",
+          "confidence": 0.3660274364318862
+        }
+      ],
+      "latency_s": 27.24821824580431,
+      "top1_score": 23.847700323638836
+    },
+    {
+      "id": "ex_63",
+      "question": "how much did the general and administrative expenses increase in fiscal year compared to",
+      "gold": "General and administrative expenses increased by $1.7 billion.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_57e5750998b9bb2b96aa297b6a2555a3a83d9e89",
+      "confidence": 0.3983219070063455,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9958047675158637,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the increase in general and administrative expenses in the fiscal year compared to the previous year?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the increase in general and administrative expenses in the fiscal year compared to the previous year?",
+          "confidence": 0.3983219070063455
+        },
+        {
+          "step": 2,
+          "query": "What was the increase in general and administrative expenses in the fiscal year compared to the previous year?",
+          "confidence": 0.3983219070063455
+        },
+        {
+          "step": 3,
+          "query": "What was the increase in general and administrative expenses in the fiscal year compared to the previous year?",
+          "confidence": 0.3983219070063455
+        }
+      ],
+      "latency_s": 27.889938611537218,
+      "top1_score": 44.464016427305026
+    },
+    {
+      "id": "ex_64",
+      "question": "what was the outstnding principal on the aud term loan",
+      "gold": "292.4 million Australian dollars",
+      "pred": "$5.0 billion",
+      "gold_doc_id": "ctxsha1_2c5cdfe09a436b416c5c409439fbcf2aa8c4269b",
+      "confidence": 0.34434891371658716,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8608722842914678,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the outstanding principal on the AUD term loan?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the outstanding principal on the AUD term loan?",
+          "confidence": 0.34434891371658716
+        },
+        {
+          "step": 2,
+          "query": "What was the outstanding principal on the AUD term loan?",
+          "confidence": 0.34434891371658716
+        },
+        {
+          "step": 3,
+          "query": "What was the outstanding principal on the AUD term loan?",
+          "confidence": 0.34434891371658716
+        }
+      ],
+      "latency_s": 26.617194276303053,
+      "top1_score": 20.1503588663074
+    },
+    {
+      "id": "ex_65",
+      "question": "what is the role of level 1, level 2, and level 3",
+      "gold": "In the fair value hierarchy as per ASC 820, Level 1 inputs are unadjusted quoted prices in active markets for identical assets or liabilities, Level 2 inputs involve observable inputs other than quoted market prices included within Level 1, and Level 3 inputs consist of unobservable inputs based on the company’s own assumptions due to limited observable activity.",
+      "pred": "Level 1 provides the highest priority with unadjusted quoted prices in active markets for identical assets or liabilities, Level 2 provides the second-highest priority with observable inputs other than quoted prices, and Level 3 provides the lowest priority with unobservable inputs.",
+      "gold_doc_id": "ctxsha1_39b32692cb202374978f029a9ee1e2b9acbef53e",
+      "confidence": 0.3994931428862496,
+      "gen_conf": 0.0,
+      "retr_conf": 0.998732857215624,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the definitions of Level 1, Level 2, and Level 3 in the fair value hierarchy?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the definitions and differences between Level 1, Level 2, and Level 3 in the fair value hierarchy?",
+          "confidence": 0.3995659980567321
+        },
+        {
+          "step": 2,
+          "query": "What are the definitions and characteristics of Level 1, Level 2, and Level 3 in the fair value hierarchy?",
+          "confidence": 0.3996051843704245
+        },
+        {
+          "step": 3,
+          "query": "What are the definitions of Level 1, Level 2, and Level 3 in the fair value hierarchy?",
+          "confidence": 0.3994931428862496
+        }
+      ],
+      "latency_s": 28.323597587645054,
+      "top1_score": 52.464818285688104
+    },
+    {
+      "id": "ex_66",
+      "question": "what was the effective tax rate in",
+      "gold": "The effective tax rate was a benefit of 50% in 2023.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_32ded42f3aa692b58109d6fb4142ed951d9393e9",
+      "confidence": 0.3516659274715538,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8791648186788844,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the effective tax rate in",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the effective tax rate in",
+          "confidence": 0.3516659274715538
+        },
+        {
+          "step": 2,
+          "query": "what was the effective tax rate in",
+          "confidence": 0.3516659274715538
+        },
+        {
+          "step": 3,
+          "query": "what was the effective tax rate in",
+          "confidence": 0.3516659274715538
+        }
+      ],
+      "latency_s": 28.3473327383399,
+      "top1_score": 21.230299386238098
+    },
+    {
+      "id": "ex_67",
+      "question": "what is the total minimum investment amount vml is required to invest",
+      "gold": "30.24 billion patacas (approximately $3.76 billion)",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_1120d55ad9720364651e259a806ffbe1572a640a",
+      "confidence": 0.3405688281748369,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8514220704370922,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the total minimum investment amount required for VML to invest?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the total minimum investment amount required for VML to invest?",
+          "confidence": 0.3405688281748369
+        },
+        {
+          "step": 2,
+          "query": "What is the total minimum investment amount required for VML to invest?",
+          "confidence": 0.3405688281748369
+        },
+        {
+          "step": 3,
+          "query": "What is the total minimum investment amount required for VML to invest?",
+          "confidence": 0.3405688281748369
+        }
+      ],
+      "latency_s": 27.769726518541574,
+      "top1_score": 19.638655845240187
+    },
+    {
+      "id": "ex_68",
+      "question": "what was the percentage increase in electronic arts ' diluted earnings per share",
+      "gold": "4 percent",
+      "pred": "12.9",
+      "gold_doc_id": "ctxsha1_7abe13c29eef5ee31a7b73bbdf01d02b316e9b68",
+      "confidence": 0.3884222771658916,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9710556929147289,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the percentage increase in electronic arts ' diluted earnings per share",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the percentage increase in electronic arts ' diluted earnings per share",
+          "confidence": 0.3884222771658916
+        },
+        {
+          "step": 2,
+          "query": "what was the percentage increase in electronic arts ' diluted earnings per share",
+          "confidence": 0.3884222771658916
+        },
+        {
+          "step": 3,
+          "query": "what was the percentage increase in electronic arts ' diluted earnings per share",
+          "confidence": 0.3884222771658916
+        }
+      ],
+      "latency_s": 27.714476961642504,
+      "top1_score": 31.420068564405824
+    },
+    {
+      "id": "ex_69",
+      "question": "are the pages of ibm ' s management ’ s discussion",
+      "gold": "Yes, they are incorporated by reference.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_2cf966a3a68eb512824b42389897fd2eb6c6f771",
+      "confidence": 0.3641024920576181,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9102562301440451,
+      "adaptive_triggered": true,
+      "rewritten_query": "are the pages of ibm ' s management ’ s discussion",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "are the pages of ibm ' s management ’ s discussion",
+          "confidence": 0.3641024920576181
+        },
+        {
+          "step": 2,
+          "query": "are the pages of ibm ' s management ’ s discussion",
+          "confidence": 0.3641024920576181
+        },
+        {
+          "step": 3,
+          "query": "are the pages of ibm ' s management ’ s discussion",
+          "confidence": 0.3641024920576181
+        }
+      ],
+      "latency_s": 27.358862202614546,
+      "top1_score": 23.445116821011467
+    },
+    {
+      "id": "ex_70",
+      "question": "what factors contribute to disruptions in the supply chain of pharmaceutical prducts",
+      "gold": "Factors such as consolidation in supply chains, labor market issues, international tensions, economic fluctuations, and increased demand for specific products and materials can contribute to supply chain disruptions in the pharmaceutical industry.",
+      "pred": "cost and wage inflation, availability of adequate capacity in global transportation, supply chain complexities, including consolidation therein, labor market issues, international tension and conflicts, uneven economic growth or downturns, an increase in overall demand in our industry for certain products and materials, and public health outbreaks, epidemics, or pandemics",
+      "gold_doc_id": "ctxsha1_0b68b8b52d4864b2798f12b2c0b1317beae28861",
+      "confidence": 0.3999833057176021,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9999582642940051,
+      "adaptive_triggered": true,
+      "rewritten_query": "What factors contribute to disruptions in the supply chain of pharmaceutical products, including cost and wage inflation, global transportation capacity, supply chain complexities, labor market issues, international tensions, and demand fluctuations?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What factors lead to disruptions in the supply chain of pharmaceutical products?",
+          "confidence": 0.37170780498469924
+        },
+        {
+          "step": 2,
+          "query": "What factors contribute to disruptions in the supply chain of pharmaceutical products, particularly in relation to inventory management, transportation costs, and vendor relationships?",
+          "confidence": 0.39576845655201354
+        },
+        {
+          "step": 3,
+          "query": "What factors contribute to disruptions in the supply chain of pharmaceutical products, including cost and wage inflation, global transportation capacity, supply chain complexities, labor market issues, international tensions, and demand fluctuations?",
+          "confidence": 0.3999833057176021
+        }
+      ],
+      "latency_s": 27.611034333705902,
+      "top1_score": 75.22741200064307
+    },
+    {
+      "id": "ex_71",
+      "question": "what strategies are employed to improve the in - store shopping experience",
+      "gold": "The company has invested in wayfinding signage, store refresh packages, self-service lockers, and enhanced checkout areas to provide customers with easier navigation and more convenient shopping options.",
+      "pred": "Enhanced checkout areas, self-service lockers, and wayfinding signage.",
+      "gold_doc_id": "ctxsha1_a9808caf40010d1b11dd1dcded3193dd4b0aff17",
+      "confidence": 0.9773876867907799,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9434692169769499,
+      "adaptive_triggered": true,
+      "rewritten_query": "What strategies does Walmart employ to enhance the in-store shopping experience?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What strategies does Walmart employ to enhance the in-store shopping experience?",
+          "confidence": 0.9773876867907799
+        }
+      ],
+      "latency_s": 13.194607742130756,
+      "top1_score": 26.76518943872846
+    },
+    {
+      "id": "ex_72",
+      "question": "what was the total cash, cash equivalents, and restricted",
+      "gold": "$1,196.0 million",
+      "pred": "$1,196.0 million",
+      "gold_doc_id": "ctxsha1_60c21478c44c6ab9b74538af3561cdb855efc77f",
+      "confidence": 0.3995276782885505,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9988191957213762,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the total amount of cash, cash equivalents, and restricted cash reported by GameStop?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the total amount of cash, cash equivalents, and restricted cash reported by GameStop?",
+          "confidence": 0.3995276782885505
+        },
+        {
+          "step": 2,
+          "query": "What was the total amount of cash, cash equivalents, and restricted cash reported by GameStop?",
+          "confidence": 0.3995276782885505
+        },
+        {
+          "step": 3,
+          "query": "What was the total amount of cash, cash equivalents, and restricted cash reported by GameStop?",
+          "confidence": 0.3995276782885505
+        }
+      ],
+      "latency_s": 28.541057378053665,
+      "top1_score": 52.93585319101074
+    },
+    {
+      "id": "ex_73",
+      "question": "how would the impairment charge in the communications segment",
+      "gold": "The impairment charge would have increased by approximately $3,400.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_a88a90883076e2204942e0af39783cbc969a575c",
+      "confidence": 0.9386589462370039,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8466473655925095,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the impairment charge in the communications segment?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the impairment charge in the communications segment?",
+          "confidence": 0.9386589462370039
+        }
+      ],
+      "latency_s": 13.637574080377817,
+      "top1_score": 19.39029470051011
+    },
+    {
+      "id": "ex_74",
+      "question": "how is dynamics ' revenue mainly driven",
+      "gold": "Dynamics' revenue is primarily driven by the number of users licensed, the consumption of applications, an expansion in the average revenue per user, and the ongoing shift to Dynamics 365, which includes cloud-based business applications like Power Apps and Power Automate.",
+      "pred": "Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate.",
+      "gold_doc_id": "ctxsha1_2204b07e8628a4c1c7a3add1fa8e75f785f694b5",
+      "confidence": 0.3450717536017441,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8626793840043602,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the main drivers of Dynamics' revenue?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the main drivers of Dynamics' revenue?",
+          "confidence": 0.3450717536017441
+        },
+        {
+          "step": 2,
+          "query": "What are the main drivers of Dynamics' revenue?",
+          "confidence": 0.3450717536017441
+        },
+        {
+          "step": 3,
+          "query": "What are the main drivers of Dynamics' revenue?",
+          "confidence": 0.3450717536017441
+        }
+      ],
+      "latency_s": 26.428143244236708,
+      "top1_score": 20.25149769543072
+    },
+    {
+      "id": "ex_75",
+      "question": "which regulations have influenced the company ' s use of data in advertising",
+      "gold": "Regulations such as the General Data Protection Regulation, ePrivacy Directive, the European Digital Services Act, and U.S. state privacy laws including the California Consumer Privacy Act have influenced the company's use of data in advertising.",
+      "pred": "General Data Protection Regulation (GDPR)",
+      "gold_doc_id": "ctxsha1_1d2aa81c944bfd286abb9c73409a256fa54d0a06",
+      "confidence": 0.9335816809097394,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8339542022743484,
+      "adaptive_triggered": true,
+      "rewritten_query": "What regulations have influenced the company's use of data in advertising?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What regulations have impacted the company's data usage in advertising?",
+          "confidence": 0.3244519028284899
+        },
+        {
+          "step": 2,
+          "query": "What regulations have influenced the company's use of data in advertising?",
+          "confidence": 0.9335816809097394
+        }
+      ],
+      "latency_s": 20.275811932981014,
+      "top1_score": 18.75943231527574
+    },
+    {
+      "id": "ex_76",
+      "question": "what was the change in hp ' s net deferred tax assets from to",
+      "gold": "Net deferred tax assets increased from $2,046 million in 2022 to $3,111 million in 2023.",
+      "pred": "1065",
+      "gold_doc_id": "ctxsha1_c6b3dd0ade6e8def9b559b1fbfd09a2d135e082c",
+      "confidence": 0.3690224262223069,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9225560655557672,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the change in hp ' s net deferred tax assets from to",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the change in hp ' s net deferred tax assets from to",
+          "confidence": 0.3690224262223069
+        },
+        {
+          "step": 2,
+          "query": "what was the change in hp ' s net deferred tax assets from to",
+          "confidence": 0.3690224262223069
+        },
+        {
+          "step": 3,
+          "query": "what was the change in hp ' s net deferred tax assets from to",
+          "confidence": 0.3690224262223069
+        }
+      ],
+      "latency_s": 27.50609314441681,
+      "top1_score": 24.51729267802727
+    },
+    {
+      "id": "ex_77",
+      "question": "how much did the total stockholders ' equity",
+      "gold": "The total stockholders' equity increased from $41,493 million on January 31, 2021, to $58,359 million on January 31, 2023.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_d003d5378c05a1e70345e112bba8a89052114bf8",
+      "confidence": 0.3821347382449161,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9553368456122903,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the total stockholders' equity for Amazon.com, Inc.?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the total stockholders' equity for Amazon.com, Inc.?",
+          "confidence": 0.3821347382449161
+        },
+        {
+          "step": 2,
+          "query": "how much did the total stockholders ' equity",
+          "confidence": 0.281588504454703
+        },
+        {
+          "step": 3,
+          "query": "What is the total stockholders' equity for Amazon.com, Inc.?",
+          "confidence": 0.3821347382449161
+        }
+      ],
+      "latency_s": 26.669952515512705,
+      "top1_score": 28.419434140859572
+    },
+    {
+      "id": "ex_78",
+      "question": "what is the purpoe of the net proceeds from the offerings",
+      "gold": "The net proceeds from the offerings are used for general corporate purposes such as capital expenditures, share repurchases, dividend payments, acquisitions, or investments.",
+      "pred": "general corporate purposes, which may include, but are not limited to, capital expenditures, share repurchases, dividend payments, acquisitions or investments.",
+      "gold_doc_id": "ctxsha1_198f4d5566fdbc2b67c37d9f521f774d2ccffeb0",
+      "confidence": 0.36356924771720434,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9089231192930108,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the purpose of the net proceeds from the offerings?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the purpose of the net proceeds from the offerings?",
+          "confidence": 0.36356924771720434
+        },
+        {
+          "step": 2,
+          "query": "What is the purpose of the net proceeds from the offerings?",
+          "confidence": 0.36356924771720434
+        },
+        {
+          "step": 3,
+          "query": "What is the purpose of the net proceeds from the offerings?",
+          "confidence": 0.36356924771720434
+        }
+      ],
+      "latency_s": 27.0132289044559,
+      "top1_score": 23.337043470622195
+    },
+    {
+      "id": "ex_79",
+      "question": "how is the baseline price for trademark coca - cola beverages",
+      "gold": "Under legacy bottler's agreements, the baseline price for Trademark Coca-Cola Beverages and other cola-flavored beverages may be adjusted periodically by the Company up to a maximum indexed ceiling price and quarterly adjustments are based on changes in certain sugar or sweetener prices.",
+      "pred": "The baseline price for Trademark Coca-Cola Beverages may be adjusted periodically by the Company, up to a maximum indexed ceiling price, and is adjusted quarterly based on changes in certain sugar or sweetener prices.",
+      "gold_doc_id": "ctxsha1_9ed5f2e4709ccd2da1d1a1b106924832b6475bf4",
+      "confidence": 0.9989094560068081,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9972736400170203,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.10818400233984,
+      "top1_score": 47.34705210513375
+    },
+    {
+      "id": "ex_80",
+      "question": "what was the total amount of future lease payments under operating leases",
+      "gold": "$17.7 billion",
+      "pred": "$17.7 billion",
+      "gold_doc_id": "ctxsha1_86bb11e7fd8ac2d1b642dc22eb856fb74a1d0759",
+      "confidence": 0.3961111842142766,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9902779605356915,
+      "adaptive_triggered": true,
+      "rewritten_query": "what was the total amount of future lease payments under operating leases",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what was the total amount of future lease payments under operating leases",
+          "confidence": 0.3961111842142766
+        },
+        {
+          "step": 2,
+          "query": "what was the total amount of future lease payments under operating leases",
+          "confidence": 0.3961111842142766
+        },
+        {
+          "step": 3,
+          "query": "what was the total amount of future lease payments under operating leases",
+          "confidence": 0.3961111842142766
+        }
+      ],
+      "latency_s": 26.79323235526681,
+      "top1_score": 38.823935026964364
+    },
+    {
+      "id": "ex_81",
+      "question": "what caused the decrease in opeating cash for the reported company in compared",
+      "gold": "The timing of income tax payments contributed to a decrease in operating cash of $32.5 million in 2023, compared to an increase of $5.0 million in 2022.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_1b05c0cbc1a006f555b86aaaa1c8830a22a6ce62",
+      "confidence": 0.33491139306016615,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8372784826504153,
+      "adaptive_triggered": true,
+      "rewritten_query": "What caused the decrease in operating cash for the reported company?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What caused the decrease in operating cash for the reported company?",
+          "confidence": 0.33491139306016615
+        },
+        {
+          "step": 2,
+          "query": "What caused the decrease in operating cash for the reported company?",
+          "confidence": 0.33491139306016615
+        },
+        {
+          "step": 3,
+          "query": "What caused the decrease in operating cash for the reported company?",
+          "confidence": 0.33491139306016615
+        }
+      ],
+      "latency_s": 27.14255451411009,
+      "top1_score": 18.920776488115486
+    },
+    {
+      "id": "ex_82",
+      "question": "what was the total amount of cash dividends ebay paid in",
+      "gold": "In 2023, eBay paid a total of $528 million in cash dividends.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_81235a42d97c45b40c34e2348e3ac9cd6c2d2e6c",
+      "confidence": 0.35076450076175936,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8769112519043983,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the total amount of cash dividends eBay paid?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the total amount of cash dividends eBay paid?",
+          "confidence": 0.35076450076175936
+        },
+        {
+          "step": 2,
+          "query": "What was the total amount of cash dividends eBay paid?",
+          "confidence": 0.35076450076175936
+        },
+        {
+          "step": 3,
+          "query": "What was the total amount of cash dividends eBay paid?",
+          "confidence": 0.35076450076175936
+        }
+      ],
+      "latency_s": 26.02488263323903,
+      "top1_score": 21.090001118212207
+    },
+    {
+      "id": "ex_83",
+      "question": "how is the potential impairment of the ipr & d intangible asset related",
+      "gold": "The potential impairment is indicated by new information suggesting that the fair value of the IPR&D intangible asset related to Trodelvy may be below its carrying value in the first quarter of 2024.",
+      "pred": "The potential impairment of the IPR&D intangible asset related to Trodelvy is expected to be assessed through an interim impairment assessment during the first quarter of 2024. If the fair value of the asset is found to be less than its carrying value, an impairment charge will be recorded on the Consolidated Statements of Income for the three months ending March 31, 2024.",
+      "gold_doc_id": "ctxsha1_9ee4f98a60d38c0d6bd3a546aa3083b2c189c7f3",
+      "confidence": 0.39919850465191775,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9979962616297944,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is the relationship between the potential impairment of the IPR&D intangible asset and its fair value assessment?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is the relationship between the potential impairment of the IPR&D intangible asset and its fair value?",
+          "confidence": 0.39883869310757003
+        },
+        {
+          "step": 2,
+          "query": "What is the relationship between the potential impairment of the IPR&D intangible asset and its fair value?",
+          "confidence": 0.39883869310757003
+        },
+        {
+          "step": 3,
+          "query": "What is the relationship between the potential impairment of the IPR&D intangible asset and its fair value assessment?",
+          "confidence": 0.39919850465191775
+        }
+      ],
+      "latency_s": 26.996298097074032,
+      "top1_score": 49.40489939688278
+    },
+    {
+      "id": "ex_84",
+      "question": "how does alphabet expect to manage the fluctuating costs associated with traffic",
+      "gold": "Alphabet anticipates that the TAC paid to partners will increase with revenue growth and will be influenced by factors such as device and geographic mix, partner agreements, and the percentage of paid queries.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_d538114fb11217f39f92cd1a3606fbfaeacebc2d",
+      "confidence": 0.35093459714112624,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8773364928528156,
+      "adaptive_triggered": true,
+      "rewritten_query": "How does Alphabet expect to manage the fluctuating costs associated with traffic?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How does Alphabet plan to manage the fluctuating costs associated with traffic?",
+          "confidence": 0.35093459714112624
+        },
+        {
+          "step": 2,
+          "query": "How does Alphabet expect to manage the fluctuating costs associated with traffic, including costs related to product recalls and revenue recognition for services?",
+          "confidence": 0.3962504276143834
+        },
+        {
+          "step": 3,
+          "query": "How does Alphabet expect to manage the fluctuating costs associated with traffic?",
+          "confidence": 0.35093459714112624
+        }
+      ],
+      "latency_s": 26.901141576468945,
+      "top1_score": 21.11630475219877
+    },
+    {
+      "id": "ex_85",
+      "question": "what was the company ' s net deferred",
+      "gold": "$639,953 and $311,106 respectively",
+      "pred": "$700 million",
+      "gold_doc_id": "ctxsha1_4a0133a73c4f1f7e57dd0ce4ab040b53ba0da005",
+      "confidence": 0.363421505793601,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9085537644840025,
+      "adaptive_triggered": true,
+      "rewritten_query": "What was the company's net deferred tax liabilities?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What was the company's net deferred tax liabilities?",
+          "confidence": 0.363421505793601
+        },
+        {
+          "step": 2,
+          "query": "What was the company's net deferred tax liabilities?",
+          "confidence": 0.363421505793601
+        },
+        {
+          "step": 3,
+          "query": "What was the company's net deferred tax liabilities?",
+          "confidence": 0.363421505793601
+        }
+      ],
+      "latency_s": 26.11900584027171,
+      "top1_score": 23.30735237260321
+    },
+    {
+      "id": "ex_86",
+      "question": "what changes occurred in the company ' s network of retail locations duing",
+      "gold": "Most of the company's retail locations remained open throughout 2023, although some were temporarily closed due to COVID-19 resurgences during earlier periods.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_2d9c6501966b6058cf9033533b5ab7233ea8545e",
+      "confidence": 0.34384658299487336,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8596164574871834,
+      "adaptive_triggered": true,
+      "rewritten_query": "What changes occurred in the company’s network of retail locations?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "what changes occurred in the company ' s network of retail locations duing",
+          "confidence": 0.34384658299487336
+        },
+        {
+          "step": 2,
+          "query": "What changes occurred in the company’s network of retail locations?",
+          "confidence": 0.34384658299487336
+        },
+        {
+          "step": 3,
+          "query": "What changes occurred in the company’s network of retail locations?",
+          "confidence": 0.34384658299487336
+        }
+      ],
+      "latency_s": 27.758412785828114,
+      "top1_score": 20.080720293010554
+    },
+    {
+      "id": "ex_87",
+      "question": "when was the first chipotle restaurant opned and where",
+      "gold": "The first Chipotle restaurant opened in Denver, Colorado in 1993.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_005007dfa69203afc8422d6d8efd15cd9bbce2ec",
+      "confidence": 0.3176224882075371,
+      "gen_conf": 0.0,
+      "retr_conf": 0.7940562205188426,
+      "adaptive_triggered": true,
+      "rewritten_query": "When did the first Chipotle restaurant open and what was its location?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "When was the first Chipotle restaurant opened and where was it located?",
+          "confidence": 0.3248536697627934
+        },
+        {
+          "step": 2,
+          "query": "When was the first Chipotle restaurant opened and where?",
+          "confidence": 0.29436361058904253
+        },
+        {
+          "step": 3,
+          "query": "When did the first Chipotle restaurant open and what was its location?",
+          "confidence": 0.3176224882075371
+        }
+      ],
+      "latency_s": 27.121539000421762,
+      "top1_score": 16.997006993585334
+    },
+    {
+      "id": "ex_88",
+      "question": "how much did delta air lies spnd on debt and finance lease obigations in",
+      "gold": "$4.1 billion",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_dd2223aa819d35ea2ab3912b6cca9629545e4dd2",
+      "confidence": 0.36371597674102357,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9092899418525588,
+      "adaptive_triggered": true,
+      "rewritten_query": "How much did Delta Air Lines spend on debt and finance lease obligations?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How much did Delta Air Lines spend on debt and finance lease obligations?",
+          "confidence": 0.36371597674102357
+        },
+        {
+          "step": 2,
+          "query": "How much did Delta Air Lines spend on debt and finance lease obligations?",
+          "confidence": 0.36371597674102357
+        },
+        {
+          "step": 3,
+          "query": "How much did Delta Air Lines spend on debt and finance lease obligations?",
+          "confidence": 0.36371597674102357
+        }
+      ],
+      "latency_s": 27.06843986362219,
+      "top1_score": 23.366638437335233
+    },
+    {
+      "id": "ex_89",
+      "question": "what accounting treatment does the company apply to refunds issued to customers",
+      "gold": "The Company accounts for refunds as variable consideration, which results in a reduction to revenue. They reduce the transaction price by the estimated amount of the payments using the most likely outcome method based on known facts and circumstances and historical experience.",
+      "pred": "The Company accounts for refunds, net of any recoveries, as variable consideration, which results in a reduction to revenue.",
+      "gold_doc_id": "ctxsha1_8d3b4f42672b973535ea1310b5aad392169a2152",
+      "confidence": 0.970083595527148,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9252089888178698,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.176123399287462,
+      "top1_score": 24.768812929686618
+    },
+    {
+      "id": "ex_90",
+      "question": "how much did sales increase in fiscal compared to the previous year",
+      "gold": "Sales increased by $1.2 billion in fiscal 2023, a 7.4% increase compared to the previous year.",
+      "pred": "$10.8 billion",
+      "gold_doc_id": "ctxsha1_355f42542738ff47d82087bdef28f19a24aa0f0e",
+      "confidence": 0.378399721789429,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9459993044735724,
+      "adaptive_triggered": true,
+      "rewritten_query": "how much did sales increase in fiscal compared to the previous year",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "how much did sales increase in fiscal compared to the previous year",
+          "confidence": 0.378399721789429
+        },
+        {
+          "step": 2,
+          "query": "how much did sales increase in fiscal compared to the previous year",
+          "confidence": 0.378399721789429
+        },
+        {
+          "step": 3,
+          "query": "how much did sales increase in fiscal compared to the previous year",
+          "confidence": 0.378399721789429
+        }
+      ],
+      "latency_s": 28.33966762199998,
+      "top1_score": 27.088299381483125
+    },
+    {
+      "id": "ex_91",
+      "question": "what does item 7 in a financial report cover",
+      "gold": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "pred": "Management's discussion and analysis of financial condition and results of operations is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K.",
+      "gold_doc_id": "ctxsha1_08767d42ceeed18e2ff4e655be99ed648f8f1ee7",
+      "confidence": 0.39987036445120094,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9996759111280024,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is covered in Item 7 of the financial report, specifically regarding Management's Discussion and Analysis of Financial Condition and Results of Operations?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is covered in Item 7 of the financial report, specifically regarding Management’s Discussion and Analysis of Financial Condition and Results of Operations?",
+          "confidence": 0.39987036445120094
+        },
+        {
+          "step": 2,
+          "query": "What is covered in Item 7 of the financial report, specifically regarding Management's Discussion and Analysis of Financial Condition and Results of Operations?",
+          "confidence": 0.39987036445120094
+        },
+        {
+          "step": 3,
+          "query": "What is covered in Item 7 of the financial report, specifically regarding Management's Discussion and Analysis of Financial Condition and Results of Operations?",
+          "confidence": 0.39987036445120094
+        }
+      ],
+      "latency_s": 27.98696870356798,
+      "top1_score": 61.56112428063166
+    },
+    {
+      "id": "ex_92",
+      "question": "what are the implications of the federal communications commission expanding the use of the",
+      "gold": "The Federal Communications Commission's expansion of the 3.7 to 4.2 GHz spectrum band for 5G networks prompted the FAA to issue airworthiness directives requiring U.S. aircraft to have radio altimeter retrofits or other enhancements to mitigate potential interference. FedEx Express complied by retrofitting its fleet to ensure continuous operation under these new regulations.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_e58720f493c4cf31d7d51129edd2e10f594c6baf",
+      "confidence": 0.39993731643945635,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9998432910986408,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the financial implications of the Federal Communications Commission (FCC) expanding the use of spectrum for facilities-based wireless communications providers?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the financial implications of the Federal Communications Commission expanding the use of the spectrum for communications services?",
+          "confidence": 0.3987641029996524
+        },
+        {
+          "step": 2,
+          "query": "What are the financial implications of the Federal Communications Commission expanding the use of spectrum for facilities-based wireless communications providers?",
+          "confidence": 0.39978676288990406
+        },
+        {
+          "step": 3,
+          "query": "What are the financial implications of the Federal Communications Commission (FCC) expanding the use of spectrum for facilities-based wireless communications providers?",
+          "confidence": 0.39993731643945635
+        }
+      ],
+      "latency_s": 27.28064312785864,
+      "top1_score": 66.40642589289062
+    },
+    {
+      "id": "ex_93",
+      "question": "what critical accounting estimates were identified as having the",
+      "gold": "The estimates associated with loss contingencies, income taxes, and valuation of assets were identified as having the greatest potential impact on the financial statements.",
+      "pred": "Self-insurance reserves, revenue allowances, inventory valuation, goodwill, revenue recognition, business combinations, accounting for income taxes",
+      "gold_doc_id": "ctxsha1_894b3baff1c2807a07eab960a23b5ff8b109db57",
+      "confidence": 0.9597908611957842,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8994771529894604,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.528204623609781,
+      "top1_score": 22.609524121925382
+    },
+    {
+      "id": "ex_94",
+      "question": "what percentage of the company ' s total revenues did darzalex",
+      "gold": "11.4%",
+      "pred": "11.4%",
+      "gold_doc_id": "ctxsha1_02f2122f6b76d62e0e2a094a79231bff19aefc55",
+      "confidence": 0.3850303264394129,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9625758160985322,
+      "adaptive_triggered": true,
+      "rewritten_query": "What percentage of the company's total revenues did DARZALEX account for?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What percentage of the company's total revenues did DARZALEX account for?",
+          "confidence": 0.3850303264394129
+        },
+        {
+          "step": 2,
+          "query": "What percentage of the company's total revenues did DARZALEX account for?",
+          "confidence": 0.3850303264394129
+        },
+        {
+          "step": 3,
+          "query": "What percentage of the company's total revenues did DARZALEX account for?",
+          "confidence": 0.3850303264394129
+        }
+      ],
+      "latency_s": 27.084870655089617,
+      "top1_score": 29.648638061362142
+    },
+    {
+      "id": "ex_95",
+      "question": "what are the proposed legislative changes in the eu regarding data service providers",
+      "gold": "The proposed changes include new or expanded requirements such as conflict of interest and transparency rules, regulation of prices and fees, and imposition of market access rules for third-country providers.",
+      "pred": "New or expanded requirements for data service providers such as conflict of interest and transparency rules, regulation of prices and fees, and imposition of market access rules for third-country providers.",
+      "gold_doc_id": "ctxsha1_4fb982b479b196093d0fe26d67cf246542a322fd",
+      "confidence": 0.3999975700966146,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9999939252415364,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the proposed legislative changes in the EU regarding data service providers, including requirements for conflict of interest, transparency, pricing, fees, and market access for third-country providers?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the proposed legislative changes in the EU regarding data service providers, including requirements for conflict of interest, transparency, pricing, fees, and market access for third-country providers?",
+          "confidence": 0.3999975700966146
+        },
+        {
+          "step": 2,
+          "query": "What are the proposed legislative changes in the EU regarding requirements for data service providers, including conflict of interest, transparency rules, pricing regulations, and market access rules for third-country providers?",
+          "confidence": 0.39999945600280573
+        },
+        {
+          "step": 3,
+          "query": "What are the proposed legislative changes in the EU regarding data service providers, including requirements for conflict of interest, transparency, pricing, fees, and market access for third-country providers?",
+          "confidence": 0.3999975700966146
+        }
+      ],
+      "latency_s": 28.90282640606165,
+      "top1_score": 88.07574835885829
+    },
+    {
+      "id": "ex_96",
+      "question": "what is the purpose of the employee opinion survey at salesforce",
+      "gold": "The Employee Opinion Survey is a vehicle for employees to provide confidential feedback on their experience at Salesforce, which is then used to assess employee engagement, company culture, and workplace environment.",
+      "pred": "To assess employee engagement, our company culture and our workplace environment.",
+      "gold_doc_id": "ctxsha1_4828695681451f8bdd9d2efc6ae4a994ccba82de",
+      "confidence": 0.9301717874381583,
+      "gen_conf": 0.9,
+      "retr_conf": 0.9754294685953956,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 6.2662161104381084,
+      "top1_score": 32.542200267581144
+    },
+    {
+      "id": "ex_97",
+      "question": "what is the company ' s approach to ensuring product compliance",
+      "gold": "The company maintains a global responsible sourcing program which requires suppliers to comply with various international and local laws, as well as company-specific social and environmental standards.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_d208c4ba34cb805df1fbcc67518bf93c5fd7c339",
+      "confidence": 0.33236500111311856,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8309125027827964,
+      "adaptive_triggered": true,
+      "rewritten_query": "What is GameStop's approach to ensuring product compliance?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What is GameStop's approach to ensuring product compliance?",
+          "confidence": 0.33236500111311856
+        },
+        {
+          "step": 2,
+          "query": "What is GameStop's approach to ensuring product compliance?",
+          "confidence": 0.33236500111311856
+        },
+        {
+          "step": 3,
+          "query": "What is GameStop's approach to ensuring product compliance?",
+          "confidence": 0.33236500111311856
+        }
+      ],
+      "latency_s": 27.35624308884144,
+      "top1_score": 18.61405454585033
+    },
+    {
+      "id": "ex_98",
+      "question": "how can the company elect to adjust the maximum leverage ratio in",
+      "gold": "The company may increase the maximum leverage ratio by 0.5 to 1.0, subject to a cap of 4.75 to 1.0, in connection with certain material acquisitions if specific requirements are met.",
+      "pred": "4.75 to 1.0",
+      "gold_doc_id": "ctxsha1_f156c9e09f275033e9ea1162a09cc31a74cf6a46",
+      "confidence": 0.999973791455755,
+      "gen_conf": 1.0,
+      "retr_conf": 0.9999344786393877,
+      "adaptive_triggered": true,
+      "rewritten_query": "How can the company elect to adjust the maximum leverage ratio, defined as consolidated funded debt divided by consolidated EBITDA, under the Senior Credit Facilities?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "How can the company elect to adjust the maximum leverage ratio (consolidated funded debt / consolidated EBITDA)?",
+          "confidence": 0.39891731033616223
+        },
+        {
+          "step": 2,
+          "query": "How can the company elect to adjust the maximum leverage ratio, defined as consolidated funded debt divided by consolidated EBITDA, under the Senior Credit Facilities?",
+          "confidence": 0.999973791455755
+        }
+      ],
+      "latency_s": 20.58089055493474,
+      "top1_score": 72.22045885839722
+    },
+    {
+      "id": "ex_99",
+      "question": "at what point in the rport do the financial statements and supplementary data appear",
+      "gold": "Immediately following the signature pages",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_0130b9b0b5d44dc4c2ed093333f57c9deb9e27af",
+      "confidence": 0.3904403516503386,
+      "gen_conf": 0.0,
+      "retr_conf": 0.9761008791258464,
+      "adaptive_triggered": true,
+      "rewritten_query": "at what point in the rport do the financial statements and supplementary data appear",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "At what point in the report do the financial statements and supplementary data appear?",
+          "confidence": 0.3931698983600781
+        },
+        {
+          "step": 2,
+          "query": "Where in the report can I find the financial statements and supplementary data?",
+          "confidence": 0.3904403516503386
+        },
+        {
+          "step": 3,
+          "query": "at what point in the rport do the financial statements and supplementary data appear",
+          "confidence": 0.3904403516503386
+        }
+      ],
+      "latency_s": 26.7473819963634,
+      "top1_score": 32.731495107194746
+    }
+  ]
+}

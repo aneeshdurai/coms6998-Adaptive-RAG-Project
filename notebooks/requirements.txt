@@ -1,0 +1,36 @@
+# Core
+numpy>=1.26
+scipy
+pandas
+tqdm
+pyyaml
+
+# Hugging Face datasets & models
+datasets>=2.18.0
+transformers>=4.39.0
+sentencepiece
+accelerate
+
+# Embeddings & retrieval
+faiss-cpu; platform_system=="Linux"
+# fallback if faiss-gpu fails:
+# faiss-cpu
+
+# Torch (GPU – RunPod A100)
+torch>=2.1.0
+torchvision
+torchaudio
+
+# OpenAI API
+openai>=1.14.0
+
+# Evaluation
+scikit-learn
+
+# RLHF / DPO
+trl>=0.8.6
+peft>=0.10.0
+
+# Notebook
+jupyter
+ipykernel

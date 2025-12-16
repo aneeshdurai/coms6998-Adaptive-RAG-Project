@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "n": 5,
+    "EM_norm": 0.0,
+    "F1": 0.24622048428335092,
+    "ROUGE_L": 0.2220965558730636,
+    "SupportOverlap": 0.4,
+    "Recall@5": 0.4,
+    "Recall@10": 0.4,
+    "Recall@20": 0.4,
+    "MRR@20": 0.4,
+    "Latency_p50_s": 1.7878879643976688,
+    "Latency_p95_s": null,
+    "Throughput_qps": 0.4847131320680105,
+    "Adaptive_trigger_rate": 0.2,
+    "Adaptive_avg_steps": 3.0
+  },
+  "records": [
+    {
+      "id": "ex_0",
+      "question": "What criteria are used to classify loans and leases as nonperforming according to the described credit policy?",
+      "gold": "Loans and leases are classified as nonperforming when they are on nonaccrual status, such as being 90 days past due, have confirmed fraud or bankruptcy, or fit certain criteria such as being uninsured past a certain delinquency threshold or not well-secured and in the process of collection in the case of commercial loans.",
+      "pred": "Loans and leases are classified as nonperforming if they are 90 days past due, have confirmed cases of fraud or bankruptcy, or specific types like consumer real estate-secured loans unless fully insured. Commercial loans and leases are also classified as nonperforming when past due 90 days or more unless well-secured and in the process of collection.",
+      "gold_doc_id": "ctxsha1_35ed255aa4a839aca81c2224aa57ce557d496607",
+      "confidence": 0.9428465843200684,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8571164608001709,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 2.1322403624653816,
+      "top1_score": 0.8571164608001709
+    },
+    {
+      "id": "ex_1",
+      "question": "How much cash from foreign subsidiaries is available for repatriation without a material tax cost as of March 31, 2023?",
+      "gold": "Approximately $925 million",
+      "pred": "925 million",
+      "gold_doc_id": "ctxsha1_f2875ceb60e19948d3d7b1e58518d1a1c9a90472",
+      "confidence": 0.9366901636123657,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8417254090309143,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 0.6512577533721924,
+      "top1_score": 0.8417254090309143
+    },
+    {
+      "id": "ex_2",
+      "question": "What are Etsy's main operating marketplaces as of 2023?",
+      "gold": "As of 2023, Etsy's main operating marketplaces are Etsy.com, Reverb, and Depop.",
+      "pred": "CANNOT_ANSWER",
+      "gold_doc_id": "ctxsha1_61354be73da72dbc7deb615c174e927da7ec2ce4",
+      "confidence": 0.32434766292572026,
+      "gen_conf": 0.0,
+      "retr_conf": 0.8108691573143005,
+      "adaptive_triggered": true,
+      "rewritten_query": "What are the main operating marketplaces of Etsy in 2023?",
+      "rewrite_history": [
+        {
+          "step": 1,
+          "query": "What are the main operating marketplaces of Etsy in 2023?",
+          "confidence": 0.32434766292572026
+        },
+        {
+          "step": 2,
+          "query": "What are the main operating marketplaces of Etsy in 2023?",
+          "confidence": 0.32434766292572026
+        },
+        {
+          "step": 3,
+          "query": "What are the main operating marketplaces of Etsy in 2023?",
+          "confidence": 0.32434766292572026
+        }
+      ],
+      "latency_s": 5.2170992605388165,
+      "top1_score": 0.8108691573143005
+    },
+    {
+      "id": "ex_3",
+      "question": "What was the increase in net cash flow from operating activities from 2022 to 2023?",
+      "gold": "$185,872",
+      "pred": "581 million",
+      "gold_doc_id": "ctxsha1_f2a997c3cddbff3ba44419b45fc8a4abbec2c86a",
+      "confidence": 0.89098747215271,
+      "gen_conf": 0.891,
+      "retr_conf": 0.8909686803817749,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 0.5228145569562912,
+      "top1_score": 0.8909686803817749
+    },
+    {
+      "id": "ex_4",
+      "question": "What does 'Other (expense) income, net' include?",
+      "gold": "'Other (expense) income, net' includes interest and other income, interest expense, foreign exchange (loss) gain, and loss on sale of business.",
+      "pred": "Other income (expense), net includes $376 million of interest income and $167 million of net unrealized losses on equity investments in 2023, and $657 million of net unrealized losses on equity investments and $106 million of interest income in 2022.",
+      "gold_doc_id": "ctxsha1_a452b1d74a28ffda66d497f49392233c2da9ef9b",
+      "confidence": 0.9332353115081787,
+      "gen_conf": 1.0,
+      "retr_conf": 0.8330882787704468,
+      "adaptive_triggered": false,
+      "rewritten_query": null,
+      "rewrite_history": null,
+      "latency_s": 1.7878879643976688,
+      "top1_score": 0.8330882787704468
+    }
+  ]
+}
