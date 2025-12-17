@@ -90,7 +90,7 @@ python run_ui.py
 We provide two notebooks for different use cases:
 
 #### Main Notebook (Recommended): `notebooks/run_all.ipynb`
-**39 cells** - Complete experimental pipeline with comprehensive evaluation
+Complete experimental pipeline with comprehensive evaluation
 
 ```bash
 jupyter notebook notebooks/run_all.ipynb
@@ -117,7 +117,7 @@ jupyter notebook notebooks/run_all.ipynb
 - `eval_runs/`: JSON result files for each experiment
 
 #### Quick Start Notebook: `notebooks/run_all_basic.ipynb`
-**24 cells** - Streamlined pipeline for quick testing
+Streamlined pipeline for quick testing
 
 Same core steps as main notebook, but without:
 - Noisy benchmark evaluation
@@ -408,8 +408,8 @@ workspace/
     └── seed.py                  # Reproducibility
 
 notebooks/
-├── run_all.ipynb              # Full pipeline (39 cells) ⭐
-└── run_all_basic.ipynb        # Quick start (24 cells)
+├── run_all.ipynb              # Full pipeline ⭐
+└── run_all_basic.ipynb        # Quick start
 ```
 
 ### Generated Artifacts
@@ -439,14 +439,13 @@ artifacts/
 │       ├── adapter_model.safetensors
 │       ├── adapter_config.json
 │       └── ...                 # Tokenizer, training args
-└── eval_runs/                  # Experiment results
+└── eval_runs/                  # Experiment results (Results reported in paper)
     ├── test_baseline_base.json      # Baseline on test set
     ├── test_adaptive_base.json      # Adaptive on test set
     ├── noisy_baseline.json          # Baseline on noisy set
     ├── noisy_adaptive.json          # Adaptive on noisy set
-    ├── *_dpo.json                   # DPO-aligned variants
-    └── presentation_examples.json   # Demo cases
-
+    └── *_dpo.json                   # DPO-aligned variants
+    
 Total size: ~5-10GB (including model checkpoints)
 ```
 
